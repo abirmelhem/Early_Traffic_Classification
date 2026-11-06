@@ -1,0 +1,18 @@
+{
+  "capture_id": "NonVPN-PCAPs-02/ICQchat1.pcapng",
+  "file_size": 58700,
+  "modified_ns": 1792264282800171700,
+  "pipeline_hash": "2e57e28bc3b8ea9ac05616ce3d740350a49b4a485f45a6e717717a804196242e",
+  "summary": {
+    "capture_id": "NonVPN-PCAPs-02/ICQchat1.pcapng",
+    "total_packets": 487,
+    "eligible_packets": 381,
+    "filtered_packets": 106,
+    "total_flows": 18,
+    "feature_rows": 42,
+    "flows_n3": 14,
+    "flows_n5": 12,
+    "flows_n10": 9,
+    "flows_n20": 7
+  }
+}

@@ -1,0 +1,17 @@
+flow_id,capture_id,protocol,packet_count,forward_count,backward_count,duration_seconds,eligible_n3,eligible_n5,eligible_n10,eligible_n20
+1055327575f96abf,NonVPN-PCAPs-02/icq_chat_3b.pcap,TCP,2,1,1,0.172665,0,0,0,0
+13fe2b648a163ddb,NonVPN-PCAPs-02/icq_chat_3b.pcap,TCP,1,1,0,0.0,0,0,0,0
+18412634fb113cc9,NonVPN-PCAPs-02/icq_chat_3b.pcap,TCP,24,12,12,0.015735,1,1,1,1
+62cd5c3c3eacd778,NonVPN-PCAPs-02/icq_chat_3b.pcap,TCP,9,5,4,0.015761,1,1,0,0
+2f7d7616ed83934c,NonVPN-PCAPs-02/icq_chat_3b.pcap,UDP,2,1,1,0.000535,0,0,0,0
+d7d2f9d167967b3e,NonVPN-PCAPs-02/icq_chat_3b.pcap,TCP,2,1,1,5.5e-05,0,0,0,0
+7e28dfdbb345c310,NonVPN-PCAPs-02/icq_chat_3b.pcap,TCP,25,12,13,0.04638,1,1,1,1
+79dad85184e7f618,NonVPN-PCAPs-02/icq_chat_3b.pcap,UDP,2,1,1,0.000402,0,0,0,0
+fefcda0616236240,NonVPN-PCAPs-02/icq_chat_3b.pcap,UDP,2,1,1,0.000349,0,0,0,0
+4811d1961b0b77a0,NonVPN-PCAPs-02/icq_chat_3b.pcap,UDP,2,1,1,0.000301,0,0,0,0
+fb23d8b6ff2760f2,NonVPN-PCAPs-02/icq_chat_3b.pcap,UDP,2,1,1,0.000284,0,0,0,0
+f3c83cf3a2f091c0,NonVPN-PCAPs-02/icq_chat_3b.pcap,TCP,2,1,1,6.4e-05,0,0,0,0
+710200b7fb1df841,NonVPN-PCAPs-02/icq_chat_3b.pcap,TCP,355,176,179,675.528761,1,1,1,1
+1d831abc36dede41,NonVPN-PCAPs-02/icq_chat_3b.pcap,TCP,46,23,23,660.045354,1,1,1,1
+e4429bf2f1082429,NonVPN-PCAPs-02/icq_chat_3b.pcap,TCP,47,24,23,660.043966,1,1,1,1
+210dfa6633453beb,NonVPN-PCAPs-02/icq_chat_3b.pcap,UDP,1124,562,562,660.181834,1,1,1,1

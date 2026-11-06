@@ -1,0 +1,18 @@
+{
+  "capture_id": "NonVPN-PCAPs-02/netflix1.pcap",
+  "file_size": 110248111,
+  "modified_ns": 1792264283853502900,
+  "pipeline_hash": "2e57e28bc3b8ea9ac05616ce3d740350a49b4a485f45a6e717717a804196242e",
+  "summary": {
+    "capture_id": "NonVPN-PCAPs-02/netflix1.pcap",
+    "total_packets": 51932,
+    "eligible_packets": 51916,
+    "filtered_packets": 16,
+    "total_flows": 120,
+    "feature_rows": 321,
+    "flows_n3": 102,
+    "flows_n5": 100,
+    "flows_n10": 96,
+    "flows_n20": 23
+  }
+}

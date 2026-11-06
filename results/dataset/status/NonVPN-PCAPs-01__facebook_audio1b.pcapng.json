@@ -1,0 +1,18 @@
+{
+  "capture_id": "NonVPN-PCAPs-01/facebook_audio1b.pcapng",
+  "file_size": 9523424,
+  "modified_ns": 1792050086982742900,
+  "pipeline_hash": "2e57e28bc3b8ea9ac05616ce3d740350a49b4a485f45a6e717717a804196242e",
+  "summary": {
+    "capture_id": "NonVPN-PCAPs-01/facebook_audio1b.pcapng",
+    "total_packets": 47677,
+    "eligible_packets": 47283,
+    "filtered_packets": 394,
+    "total_flows": 47,
+    "feature_rows": 98,
+    "flows_n3": 27,
+    "flows_n5": 26,
+    "flows_n10": 24,
+    "flows_n20": 21
+  }
+}

@@ -1,0 +1,17 @@
+flow_id,capture_id,protocol,packet_count,forward_count,backward_count,duration_seconds,eligible_n3,eligible_n5,eligible_n10,eligible_n20
+6e92097fb033f8ee,NonVPN-PCAPs-01/facebook_video1b.pcapng,TCP,5,3,2,0.030512,1,1,0,0
+34e906c097192cdb,NonVPN-PCAPs-01/facebook_video1b.pcapng,UDP,16537,8268,8269,158.184961,1,1,1,1
+21994443534574d9,NonVPN-PCAPs-01/facebook_video1b.pcapng,UDP,75370,37649,37721,158.181629,1,1,1,1
+149d362f9c6d9a73,NonVPN-PCAPs-01/facebook_video1b.pcapng,UDP,147,147,0,156.11116,1,1,1,1
+6f4915b6428ec44d,NonVPN-PCAPs-01/facebook_video1b.pcapng,UDP,147,147,0,156.132538,1,1,1,1
+8a396be37b46126b,NonVPN-PCAPs-01/facebook_video1b.pcapng,UDP,36,18,18,151.416557,1,1,1,1
+d1a97322537ba33a,NonVPN-PCAPs-01/facebook_video1b.pcapng,UDP,32,16,16,151.338545,1,1,1,1
+8c51d00332d4f6f5,NonVPN-PCAPs-01/facebook_video1b.pcapng,TCP,8,4,4,135.264156,1,1,0,0
+6f070cff834ab6b3,NonVPN-PCAPs-01/facebook_video1b.pcapng,TCP,70,30,40,126.83698,1,1,1,1
+ba2189af6ab939db,NonVPN-PCAPs-01/facebook_video1b.pcapng,TCP,33,18,15,116.5342,1,1,1,1
+4a509cb9a28b02e3,NonVPN-PCAPs-01/facebook_video1b.pcapng,TCP,6,3,3,90.328326,1,1,0,0
+135251b3fa75a1a6,NonVPN-PCAPs-01/facebook_video1b.pcapng,TCP,45,23,22,29.169822,1,1,1,1
+92f8413da10077b6,NonVPN-PCAPs-01/facebook_video1b.pcapng,TCP,5,3,2,0.02648,1,1,0,0
+1d63b0bde419ed27,NonVPN-PCAPs-01/facebook_video1b.pcapng,TCP,24,12,12,0.050661,1,1,1,1
+1b1ae97a80784055,NonVPN-PCAPs-01/facebook_video1b.pcapng,TCP,26,13,13,0.287027,1,1,1,1
+abb9dfd4db28aeaa,NonVPN-PCAPs-01/facebook_video1b.pcapng,TCP,24,12,12,0.478811,1,1,1,1

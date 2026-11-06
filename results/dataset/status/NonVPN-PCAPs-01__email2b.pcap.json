@@ -1,0 +1,18 @@
+{
+  "capture_id": "NonVPN-PCAPs-01/email2b.pcap",
+  "file_size": 967539,
+  "modified_ns": 1792050086878392800,
+  "pipeline_hash": "2e57e28bc3b8ea9ac05616ce3d740350a49b4a485f45a6e717717a804196242e",
+  "summary": {
+    "capture_id": "NonVPN-PCAPs-01/email2b.pcap",
+    "total_packets": 7686,
+    "eligible_packets": 7595,
+    "filtered_packets": 91,
+    "total_flows": 318,
+    "feature_rows": 561,
+    "flows_n3": 195,
+    "flows_n5": 152,
+    "flows_n10": 120,
+    "flows_n20": 94
+  }
+}

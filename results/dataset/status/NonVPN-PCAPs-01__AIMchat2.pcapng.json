@@ -1,0 +1,18 @@
+{
+  "capture_id": "NonVPN-PCAPs-01/AIMchat2.pcapng",
+  "file_size": 66484,
+  "modified_ns": 1792050086826863100,
+  "pipeline_hash": "2e57e28bc3b8ea9ac05616ce3d740350a49b4a485f45a6e717717a804196242e",
+  "summary": {
+    "capture_id": "NonVPN-PCAPs-01/AIMchat2.pcapng",
+    "total_packets": 366,
+    "eligible_packets": 309,
+    "filtered_packets": 57,
+    "total_flows": 18,
+    "feature_rows": 27,
+    "flows_n3": 9,
+    "flows_n5": 8,
+    "flows_n10": 7,
+    "flows_n20": 3
+  }
+}

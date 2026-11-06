@@ -1,0 +1,18 @@
+{
+  "capture_id": "NonVPN-PCAPs-01/facebookchat1.pcapng",
+  "file_size": 453200,
+  "modified_ns": 1792050092833487400,
+  "pipeline_hash": "2e57e28bc3b8ea9ac05616ce3d740350a49b4a485f45a6e717717a804196242e",
+  "summary": {
+    "capture_id": "NonVPN-PCAPs-01/facebookchat1.pcapng",
+    "total_packets": 1061,
+    "eligible_packets": 1059,
+    "filtered_packets": 2,
+    "total_flows": 36,
+    "feature_rows": 45,
+    "flows_n3": 34,
+    "flows_n5": 5,
+    "flows_n10": 3,
+    "flows_n20": 3
+  }
+}

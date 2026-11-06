@@ -1,0 +1,18 @@
+{
+  "capture_id": "NonVPN-PCAPs-02/gmailchat2.pcapng",
+  "file_size": 1494044,
+  "modified_ns": 1792264263059343500,
+  "pipeline_hash": "2e57e28bc3b8ea9ac05616ce3d740350a49b4a485f45a6e717717a804196242e",
+  "summary": {
+    "capture_id": "NonVPN-PCAPs-02/gmailchat2.pcapng",
+    "total_packets": 3143,
+    "eligible_packets": 3106,
+    "filtered_packets": 37,
+    "total_flows": 119,
+    "feature_rows": 172,
+    "flows_n3": 92,
+    "flows_n5": 33,
+    "flows_n10": 30,
+    "flows_n20": 17
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "capture_id": "NonVPN-PCAPs-02/hangouts_video2a.pcap",
+  "file_size": 732534042,
+  "modified_ns": 1792264276685580700,
+  "pipeline_hash": "2e57e28bc3b8ea9ac05616ce3d740350a49b4a485f45a6e717717a804196242e",
+  "summary": {
+    "capture_id": "NonVPN-PCAPs-02/hangouts_video2a.pcap",
+    "total_packets": 808344,
+    "eligible_packets": 808065,
+    "filtered_packets": 279,
+    "total_flows": 1376,
+    "feature_rows": 257,
+    "flows_n3": 68,
+    "flows_n5": 68,
+    "flows_n10": 62,
+    "flows_n20": 59
+  }
+}

@@ -1,0 +1,16 @@
+flow_id,capture_id,protocol,packet_count,forward_count,backward_count,duration_seconds,eligible_n3,eligible_n5,eligible_n10,eligible_n20
+7cbc8a5a39b1f2db,NonVPN-PCAPs-01/AIMchat1.pcapng,UDP,4,2,2,0.134096,1,0,0,0
+086b1707f746f8df,NonVPN-PCAPs-01/AIMchat1.pcapng,TCP,6,3,3,120.052777,1,1,0,0
+b71a2916a9d767b6,NonVPN-PCAPs-01/AIMchat1.pcapng,TCP,6,3,3,120.059224,1,1,0,0
+4261e23fb3a94d23,NonVPN-PCAPs-01/AIMchat1.pcapng,UDP,2,1,1,0.208146,0,0,0,0
+768c693d16d1d072,NonVPN-PCAPs-01/AIMchat1.pcapng,UDP,2,1,1,0.139543,0,0,0,0
+5acffabc1387cb38,NonVPN-PCAPs-01/AIMchat1.pcapng,TCP,4,2,2,30.050382,1,0,0,0
+e042599e5c6e32fd,NonVPN-PCAPs-01/AIMchat1.pcapng,TCP,8,4,4,90.052611,1,1,0,0
+9358c98bf33aedef,NonVPN-PCAPs-01/AIMchat1.pcapng,TCP,85,42,43,373.687496,1,1,1,1
+a7d78cba277c8121,NonVPN-PCAPs-01/AIMchat1.pcapng,TCP,80,40,40,369.205388,1,1,1,1
+1f8d0f7d63c674f8,NonVPN-PCAPs-01/AIMchat1.pcapng,TCP,26,13,13,360.169444,1,1,1,1
+91caab6ee6f3e6a6,NonVPN-PCAPs-01/AIMchat1.pcapng,TCP,26,13,13,360.176467,1,1,1,1
+f6fcd6b2666acf04,NonVPN-PCAPs-01/AIMchat1.pcapng,TCP,26,13,13,360.176341,1,1,1,1
+aefc528d0a9a2b22,NonVPN-PCAPs-01/AIMchat1.pcapng,TCP,26,13,13,360.170025,1,1,1,1
+3f178f5371d2ef3a,NonVPN-PCAPs-01/AIMchat1.pcapng,TCP,30,17,13,0.110224,1,1,1,1
+3369ce834c8d41a3,NonVPN-PCAPs-01/AIMchat1.pcapng,UDP,4,2,2,0.133955,1,0,0,0

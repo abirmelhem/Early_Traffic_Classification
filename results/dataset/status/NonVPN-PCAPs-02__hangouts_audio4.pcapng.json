@@ -1,0 +1,18 @@
+{
+  "capture_id": "NonVPN-PCAPs-02/hangouts_audio4.pcapng",
+  "file_size": 165147312,
+  "modified_ns": 1792264266104622500,
+  "pipeline_hash": "2e57e28bc3b8ea9ac05616ce3d740350a49b4a485f45a6e717717a804196242e",
+  "summary": {
+    "capture_id": "NonVPN-PCAPs-02/hangouts_audio4.pcapng",
+    "total_packets": 1019454,
+    "eligible_packets": 645138,
+    "filtered_packets": 374316,
+    "total_flows": 4352,
+    "feature_rows": 353,
+    "flows_n3": 95,
+    "flows_n5": 89,
+    "flows_n10": 88,
+    "flows_n20": 81
+  }
+}

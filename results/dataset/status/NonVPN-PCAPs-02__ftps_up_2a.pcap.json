@@ -1,0 +1,18 @@
+{
+  "capture_id": "NonVPN-PCAPs-02/ftps_up_2a.pcap",
+  "file_size": 90256484,
+  "modified_ns": 1792264262173641500,
+  "pipeline_hash": "2e57e28bc3b8ea9ac05616ce3d740350a49b4a485f45a6e717717a804196242e",
+  "summary": {
+    "capture_id": "NonVPN-PCAPs-02/ftps_up_2a.pcap",
+    "total_packets": 93433,
+    "eligible_packets": 93409,
+    "filtered_packets": 24,
+    "total_flows": 126,
+    "feature_rows": 198,
+    "flows_n3": 66,
+    "flows_n5": 56,
+    "flows_n10": 53,
+    "flows_n20": 23
+  }
+}

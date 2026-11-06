@@ -1,0 +1,11 @@
+# Proposed experiment protocol
+- Dataset: ISCXVPN2016 candidate, current local NonVPN PCAPs; labels not yet validated.
+- Task: multiclass service traffic classification.
+- N: 3, 5, 10, 20 packets.
+- Main cohort: same flows with at least 20 packets; report excluded shorter flows by class.
+- Split: capture/session-grouped if feasible; identical split across N; no test tuning.
+- Baselines: DummyClassifier and Random Forest, fixed settings.
+- Primary: per-class precision/recall/F1, macro-F1, confusion matrices, class support.
+- Networking: time-to-N (ms), coverage by class, reliability versus delay.
+- Preserve natural imbalance; define majority/minority from training flow counts.
+- Risks: label ambiguity, leakage, short flows, outdated captures, generalization, unverified novelty.

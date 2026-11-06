@@ -1,0 +1,10 @@
+reason,packet_count
+non_ipv4,193194
+non_tcp_udp,1470
+multicast,89323
+unspecified_address,55
+broadcast,8875
+directed_broadcast,81399
+eligible,645138
+filtered,374316
+total,1019454
