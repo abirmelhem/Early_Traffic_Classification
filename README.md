@@ -220,7 +220,7 @@ To support reliable and reproducible evaluation:
 ## Contributors
 
 - **Abir Melhem**
-- **Aya**
+- **Aya Abdallah**
 
 ## Dataset Attribution
 
