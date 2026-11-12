@@ -191,6 +191,19 @@ Generated data files are excluded from version control and must be shared separa
 
 ## Testing
 
+### Dataset EDA
+
+Regenerate statistical tables, 300-dpi PNG figures, and the research report from
+the separate capture-labeled CSVs, preserving all source data:
+
+```bash
+python -m src.analysis.dataset_eda
+python -m unittest discover -s tests -p test_dataset_eda.py -v
+```
+
+See [the generated EDA report](results/eda/REPORT.md). Results describe unverified
+candidate labels and packet-budget eligibility; they are not classifier results.
+
 ### Capture-derived candidate labels
 
 Generate separate, explicitly unverified capture-context annotations for the
