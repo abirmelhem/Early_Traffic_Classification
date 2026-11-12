@@ -1,0 +1,3 @@
+archive,unique_flows,captures,median_packets,p95_packets,short_flows,n3_flows,n3_coverage_pct,n5_flows,n5_coverage_pct,n10_flows,n10_coverage_pct,n20_flows,n20_coverage_pct
+NonVPN-PCAPs-01,2995,23,2,53.3,1508,1487,49.6494157,983,32.8213689,768,25.6427379,509,16.9949917
+NonVPN-PCAPs-02,10319,26,2,26,8607,1712,16.5907549,1226,11.8809962,1003,9.7199341,598,5.79513519

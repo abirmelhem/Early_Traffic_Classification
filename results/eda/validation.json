@@ -1,0 +1,59 @@
+{
+  "unique_flows": 13314,
+  "feature_representations": 8286,
+  "class_total": 13314,
+  "eligible_counts": {
+    "3": 3199,
+    "5": 2209,
+    "10": 1771,
+    "20": 1107
+  },
+  "input_sha256": {
+    "data\\processed\\capture_labeled\\all_flows_capture_labeled.csv": "37e2588c9d7bff0252263e3c9d6f4f9aeb141e9b85a0b75fb0751505aa4951a9",
+    "data\\processed\\capture_labeled\\all_features_capture_labeled.csv": "e57e04ced651e6bca9ea0da018766fcc4c4ae6c7eaf9c458a17883b64a20897a"
+  },
+  "sources_unchanged": true,
+  "alignment_valid": true,
+  "missing_labels_normalized_to_unresolved": true,
+  "versions": {
+    "python": "3.11.9",
+    "pandas": "2.2.3",
+    "numpy": "2.2.5",
+    "matplotlib": "3.11.2"
+  },
+  "pipeline_sha256": "a2fcbc1434562881f7b4766e09b810f77c67d17f1858906e4ccd9a186a4d8100",
+  "plots": [
+    "class_distribution",
+    "class_by_n",
+    "packet_budget_coverage",
+    "flow_length_distribution",
+    "flow_length_by_class",
+    "protocol_by_class",
+    "capture_distribution",
+    "captures_per_class",
+    "observation_delay_ecdf",
+    "observation_delay_by_class",
+    "archive_comparison",
+    "archive_length_comparison"
+  ],
+  "tables": [
+    "class_distribution",
+    "class_by_n",
+    "eligibility_loss",
+    "flow_length_bins",
+    "flow_length_statistics",
+    "protocol_by_class",
+    "protocol_overall",
+    "protocol_percent_by_class",
+    "protocol_eligibility",
+    "short_flows_by_class_protocol",
+    "capture_distribution",
+    "delay_by_class_n",
+    "delay_by_n",
+    "delay_common_n20_cohort",
+    "archive_summary",
+    "archive_class_distribution",
+    "archive_flow_length_bins",
+    "prefix_mean_packet_length"
+  ]
+}
