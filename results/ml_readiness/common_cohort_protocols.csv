@@ -1,0 +1,5 @@
+candidate_class,TCP,UDP
+CHAT,80,12
+MAIL,237,10
+VOIP,336,53
+FT,115,8

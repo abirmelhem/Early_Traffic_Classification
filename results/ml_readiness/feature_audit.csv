@@ -1,0 +1,35 @@
+column,present_in,kind,meaning,available_at_n,requires_later_packets,recommendation,justification
+application,flows;features,metadata,filename-derived application,yes,False,EXCLUDE,Direct target shortcut
+backward_count,flows,full_flow,completed reverse packet count,no,True,EXCLUDE,Future-packet information
+backward_ratio,features,numeric,prefix reverse packet proportion,yes,False,EXCLUDE_REDUNDANT,One minus forward_ratio; no future leakage
+candidate_class,flows;features,target,capture-derived unverified activity,yes,False,TARGET_ONLY,Never a predictor; not verified flow truth
+capture_id,flows;features,identifier,capture filename/path,yes,False,EXCLUDE,Filename derives candidate target directly
+confidence,flows;features,metadata,candidate confidence category,yes,False,EXCLUDE,Labeling metadata; not traffic evidence
+duration_seconds,flows,full_flow,completed flow duration in seconds,no,True,EXCLUDE,Future-packet information
+eligible_n10,flows,full_flow,completed flow eligibility flag,no,True,EXCLUDE,Future information; cohort bookkeeping only
+eligible_n20,flows,full_flow,completed flow eligibility flag,no,True,EXCLUDE,Future information; cohort bookkeeping only
+eligible_n3,flows,full_flow,completed flow eligibility flag,no,True,EXCLUDE,Future information; cohort bookkeeping only
+eligible_n5,flows,full_flow,completed flow eligibility flag,no,True,EXCLUDE,Future information; cohort bookkeeping only
+flow_id,flows;features,identifier,hash of capture/key/segment assigned at flow creation,yes,False,EXCLUDE,Identity only; encodes capture membership; not a numeric traffic predictor
+forward_count,flows,full_flow,completed forward packet count,no,True,EXCLUDE,Future-packet information
+forward_ratio,features,numeric,prefix initial-source packet proportion,yes,False,PRIMARY,"Prefix-only; forward means first observed endpoint, not necessarily client"
+label_source,flows;features,metadata,rule and evidence URL,yes,False,EXCLUDE,Rule reveals target
+max_length,features,numeric,prefix maximum packet size in bytes,yes,False,PRIMARY,Prefix-only; MTU/application confounding possible
+mean_interarrival,features,numeric,mean consecutive prefix IAT in seconds,yes,False,PRIMARY,Prefix-only; negative differences clipped upstream
+mean_length,features,numeric,prefix mean captured packet size in bytes,yes,False,PRIMARY,Prefix-only; capture link-layer artifacts remain possible
+min_length,features,numeric,prefix minimum packet size in bytes,yes,False,PRIMARY,Prefix-only; may encode framing artifacts
+n_packets,features,design,observation budget,yes,False,EXCLUDE,Train a separate model per N; constant within model
+packet_count,flows,full_flow,completed flow packet count,no,True,EXCLUDE,Future-packet information; cohort selection only
+protocol,flows;features,categorical,TCP or UDP,yes,False,SECONDARY_ONLY,Prefix-safe but strong class/capture confound; encode within folds
+recording_group,flows;features,group,documented recording identity if available,unknown,False,GROUP_ONLY,All null currently; never infer from application or suffix
+std_interarrival,features,numeric,population prefix IAT standard deviation in seconds,yes,False,PRIMARY,Prefix-only; timing environment may identify captures
+std_length,features,numeric,prefix population size standard deviation in bytes,yes,False,PRIMARY,Prefix-only; capture artifacts remain possible
+time_to_n,features,outcome,prefix observation delay in seconds,yes,False,REPORT_ONLY,Not future leakage; reserve as networking outcome; sensitivity inclusion predeclared
+total_bytes,features,numeric,sum of prefix packet sizes in bytes,yes,False,EXCLUDE_REDUNDANT,N times mean_length at fixed N; no future leakage
+verification_status,flows;features,metadata,label verification category,yes,False,EXCLUDE,Provenance/filter only
+source_ip,ABSENT,identifier,not exported separately,yes,False,EXCLUDE,Endpoint/service/time identity can shortcut targets; missing fields also prevent provenance matching
+destination_ip,ABSENT,identifier,not exported separately,yes,False,EXCLUDE,Endpoint/service/time identity can shortcut targets; missing fields also prevent provenance matching
+source_port,ABSENT,identifier,not exported separately,yes,False,EXCLUDE,Endpoint/service/time identity can shortcut targets; missing fields also prevent provenance matching
+destination_port,ABSENT,identifier,not exported separately,yes,False,EXCLUDE,Endpoint/service/time identity can shortcut targets; missing fields also prevent provenance matching
+absolute_timestamp,ABSENT,identifier,not exported separately,yes,False,EXCLUDE,Endpoint/service/time identity can shortcut targets; missing fields also prevent provenance matching
+filename,ABSENT,identifier,not exported separately,yes,False,EXCLUDE,Endpoint/service/time identity can shortcut targets; missing fields also prevent provenance matching
