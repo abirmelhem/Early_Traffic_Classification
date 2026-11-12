@@ -1,0 +1,27 @@
+{
+  "rule_version": "1",
+  "source": "https://www.unb.ca/cic/datasets/vpn.html",
+  "packet_budgets": [
+    3,
+    5,
+    10,
+    20
+  ],
+  "input_sha256": {
+    "inventory": "9c8a1a5ea4a47adb82fa8613ea458e9b05df5306ec04906385719078494d58b5",
+    "flows": "380201b9067e76362a67f8c35838bb6ee093e1892ced43e88c61d142311a9cc1",
+    "features": "8dd65dd74edb0fd25602918496a1e3d42e2c9ce422569d25768ff7969207e9b2"
+  },
+  "pipeline_sha256": "29ef7e5811663f324783a63cba2eec4c057b16608e11ac4f3f7432dc4cc8effb",
+  "n20_screening_threshold": 100,
+  "threshold_note": "Descriptive warning only, not statistical adequacy or split feasibility",
+  "capture_count": 49,
+  "flow_count": 13314,
+  "feature_count": 8286,
+  "unresolved_capture_count": 14,
+  "original_inputs_unchanged": true,
+  "all_flow_representations_present": true,
+  "verified_flow_labels": 0,
+  "documented_recording_groups": 0,
+  "warning": "Candidates describe capture context; background flows remain unidentified. No ARFF joins or independent recording groups are inferred."
+}
