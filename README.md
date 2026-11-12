@@ -191,6 +191,21 @@ Generated data files are excluded from version control and must be shared separa
 
 ## Testing
 
+### Capture-derived candidate labels
+
+Generate separate, explicitly unverified capture-context annotations for the
+existing processed tables (standard library only; no model training):
+
+```bash
+python -m src.traffic.label_captures
+python -m unittest discover -s tests -p test_label_captures.py -v
+```
+
+See [capture labeling rules and output documentation](docs/capture_labeling.md).
+These candidates are not verified flow-level ground truth. Unknown recording
+groups remain null; video, Netflix, Gmail chat, and unknown patterns remain
+unresolved. Original processed CSVs are preserved.
+
 Unit tests verify the correctness of dataset discovery, packet filtering, flow construction, timeout behavior, feature calculations, and packet-prefix independence.
 
 Run preprocessing tests with:
