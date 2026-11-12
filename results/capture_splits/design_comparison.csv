@@ -1,0 +1,4 @@
+design,rounds,all_classes_in_all_partitions,all_count_screens_pass,recording_independence,capture_disjoint,minimum_per_class_train_flows,minimum_per_class_train_captures,minimum_per_class_validation_flows,minimum_per_class_validation_captures,minimum_per_class_test_flows,minimum_per_class_test_captures
+outer4_inner_holdout,4,True,True,UNVERIFIED,True,54,2,14,1,22,1
+outer3_inner_holdout,3,True,True,UNVERIFIED,True,44,1,12,1,30,1
+single_holdout,1,True,True,UNVERIFIED,True,54,2,18,1,20,1
