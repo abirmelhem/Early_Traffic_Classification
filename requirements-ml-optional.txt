@@ -1,0 +1,2 @@
+# Optional CPU multiclass backend. Install manually only when ready to run XGBoost.
+xgboost>=2.0
