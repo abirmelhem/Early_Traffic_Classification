@@ -1,0 +1,92 @@
+{
+  "model": "logistic_regression",
+  "comparison_identity": {
+    "protocol": "capture_cv_train_validation_refit_v1",
+    "inputs": {
+      "data/processed/capture_labeled/all_flows_capture_labeled.csv": "7632804512cfee2849afb53a0cb9facd747b53c438ab23b0e2facecb272941dc",
+      "data/processed/capture_labeled/all_features_capture_labeled.csv": "c3769651b62c550d3c96cbb3c7416f6122c64149065fdc0ab22bb1939e7f38e1",
+      "results/ml_readiness/common_cohort_manifest.csv": "bac71071b7f7312a0e5cc06f7dbc6e50fba78b9a9a8387a17f8ee64c6ee95cf3",
+      "results/ml_readiness/feature_audit.csv": "658d0076511e36458f05d91294324ea8bac528fc9f92af2b3e42dd9a2a23689d",
+      "results/capture_splits/flow_partition_manifest.csv": "f621a52aed2a4cc0f9b828ab37115df076772508f269c460e8fa1e0454b01d96",
+      "results/capture_splits/observation_partition_manifest.csv": "9649964c4036171470ed4bb5c60ca58f1daa05681aa0a56fdd29050ec9b6f437",
+      "results/capture_splits/capture_partition_manifest.csv": "0539cb0786db5f39b2d1338bb4b70167dce7ce52729c8d91dd674921406e807a"
+    },
+    "predictors": [
+      "mean_length",
+      "std_length",
+      "min_length",
+      "max_length",
+      "forward_ratio",
+      "mean_interarrival",
+      "std_interarrival"
+    ],
+    "labels": [
+      "CHAT",
+      "MAIL",
+      "VOIP",
+      "FT"
+    ],
+    "design": "outer4_inner_holdout",
+    "budgets": [
+      3,
+      5,
+      10,
+      20
+    ],
+    "seed": 42
+  },
+  "versions": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.2.0"
+  },
+  "grid": [
+    {
+      "C": 0.001
+    },
+    {
+      "C": 0.01
+    },
+    {
+      "C": 0.1
+    },
+    {
+      "C": 0.3
+    },
+    {
+      "C": 1.0
+    },
+    {
+      "C": 3.0
+    },
+    {
+      "C": 10.0
+    },
+    {
+      "C": 100.0
+    }
+  ],
+  "implementation_sha256": {
+    "compare_models.py": "f48814ea4405e03c0c50dc67a96d4b10606d6ab0278a85a73f2923682022188f",
+    "data.py": "faed83bed6294740ce6ee3b1c071aee74ddebf8f068f2542fc2c3ce91ffca05a",
+    "data_loader.py": "a3669dbfff56fc953df32e9e1c4bbcde4320f1b296c1f49c60b1559ed5d0069a",
+    "evaluate.py": "561ff5bc3455ab230be30225e16721acf8f4a9a645b8f85acca00a7eb8510f10",
+    "evaluation.py": "6ce6197844b906d887f1aa3ebefac849484677380cf89da485c6d2dc62599001",
+    "experiments.py": "0b39c413f9c0cd26781ad202c65a1a2e35bd32e21ecd3bb49a08712d9d111beb",
+    "features.py": "68d61554c6232c9b2e94b52326b9070e3efd217f600416045aefa2075da36eb7",
+    "metrics.py": "fb68a806209659ed48919be3ef9e61dc7505ef01858785a85c963fdc034b0199",
+    "plots.py": "64e73270562f7f64e2ee4a447e7f30ecc307fff145baa4b2a22b1ddc090be9fe",
+    "run_experiments.py": "eb8565f450ce301489fc1bc51f67a67d78ccf56d886009163d9b99200d486b25",
+    "splits.py": "0b196172439d47e9e579405c40d51db7b2967e99624923367b6c4c4edf2206c6",
+    "train.py": "ebb9718821caed62c78357ab469ff2e7b945f61f5ef65b73a3a4cd2b5fdeddf7",
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "models/logistic_regression.py": "73c6d3d6e91f781c608ca9d93eff43cd752c20bd0bc3a93b591660278818a90b",
+    "models/random_forest.py": "8a60f6fe4733739b037c7e04f72f99a203170512145b3ad2691720f3839bca92",
+    "models/xgboost_model.py": "7552de89d995eedb7c017724501238e8ee1468394b1b11c7230b70014bea1b63",
+    "models/__init__.py": "a9115b83b72abd00ce128756dc860ea3909ecd759b7802465a03c8c5e68cb0c4"
+  },
+  "final_refit": "fresh imputation/scaling/classifier on train+validation after selection",
+  "scientific_warning": "Unverified capture-derived labels and recording independence; no recording-generalization claim"
+}

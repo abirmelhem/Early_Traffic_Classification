@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "model": "random_forest",
+  "output_sha256": {
+    "configuration.json": "817b586956eb471bb51634c293399710dfa331118c4b282c511324279bc3b23a",
+    "fit_events.csv": "76fa7c6963c61e4ae140da6f544b54a3b5c2626e32fde621d7ee7aa0412dc6c4",
+    "fold_class_metrics.csv": "fac68ab5ca0c73c1078172e532190640a62207f9e44c2bf315d069936ceb0303",
+    "fold_confusion.csv": "2af6c43928444a4db2d22d5a7deaf2d693e9f01fe08d0587e455126fe664fd18",
+    "fold_metrics.csv": "20f760a02bff8762ebdd74442e82da44ed2890537b8bee8d2d39888464c4e683",
+    "fold_metric_summary.csv": "87a2370a290c23f2cc11b283cd5d3048ec5ac0470058b6c1c85987b2617477f6",
+    "pooled_class_metrics.csv": "f04bae6acf65428f1c3c2163cdc3045f15607e986c92db2c05e7f34decf19070",
+    "pooled_confusion.csv": "3adf2f1b40742339a88ebc097c96d0eb5a24292f23b8ecaa36aebdbafc9e99b1",
+    "pooled_metrics.csv": "39af74d4b7aea0029994bc9bf4f2588dd0ffd61cb7688420ab7fa13a2ff07743",
+    "predictions.csv": "4cd99ef2ee09ad363cc29f327ab2b65efaa1c9a8b84d1fd90f117e94c946fd0c",
+    "selected_parameters.csv": "170d17cb1d6279ac79e90e9ce5232ea6a0f8118a706f21fd5efd194964b5808c",
+    "training_class_roles.csv": "59a81679e3d9896e9114e45c7b2a03676d7ba5d7bb926e1337641e0fbccf1837",
+    "validation_search.csv": "b755e40a2cc2eaef27b0ea7f82db91473189918ebe548c006a364f38b4805a07"
+  }
+}

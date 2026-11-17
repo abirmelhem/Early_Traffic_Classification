@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "model": "logistic_regression",
+  "output_sha256": {
+    "configuration.json": "02c16a433e862c629718ec65b92912f465966fc15d0b16b0de14ebd27b5a7f18",
+    "fit_events.csv": "76fa7c6963c61e4ae140da6f544b54a3b5c2626e32fde621d7ee7aa0412dc6c4",
+    "fold_class_metrics.csv": "da5bccf6e0dcac0aadd4036ddea2ae3fe3666b1ad94d93627c9613cce394092f",
+    "fold_confusion.csv": "1a89f58bc8c0461a748a855636abe7ffdbd7501b176d87c002f8e90bb1011e76",
+    "fold_metrics.csv": "b5b1511788f6b6cb08381fe3487d76eecfdd13c4b84b0dab1d7962fe630c5cd8",
+    "fold_metric_summary.csv": "65038478f5bdc982aa9aeaa8468876368b73307f5e0275d39031f4b403b3701e",
+    "pooled_class_metrics.csv": "596c661893167d83f6a5fb1864f3469c4abd344c213ba0f18c8d950c4118be2f",
+    "pooled_confusion.csv": "aa6713b49de894c7480b219759b6a5c4b0e0cc5f1b98fb94c8ad3ce59283d5a3",
+    "pooled_metrics.csv": "8ac50ece0116602b0254c1edeacb926c054d744a36df1f2d1f53f8fc527bbed3",
+    "predictions.csv": "71575aa95437f445ff83b1ae1d6d24b48cfdb60f56cbf8b365e5b6d7ad419280",
+    "selected_parameters.csv": "773ce970bdb67f4830c092720421aa9c8dacb74e998dca803830761897063bcf",
+    "training_class_roles.csv": "59a81679e3d9896e9114e45c7b2a03676d7ba5d7bb926e1337641e0fbccf1837",
+    "validation_search.csv": "f27e5dd5ec3500d26e94d2c5a652a289e17aa5e6c7aa56d4d4be25bd32f2c4ac"
+  }
+}
