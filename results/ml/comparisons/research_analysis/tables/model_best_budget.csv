@@ -1,0 +1,4 @@
+model,best_observed_n,macro_f1
+logistic_regression,20,0.5742054449165814
+random_forest,5,0.8509437161002342
+xgboost,5,0.8550514231952535

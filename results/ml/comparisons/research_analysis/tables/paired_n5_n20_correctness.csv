@@ -1,0 +1,13 @@
+model,candidate_class,support,correct_at_both,wrong_at_both,correct5_wrong20,wrong5_correct20
+logistic_regression,CHAT,92,13,63,11,5
+logistic_regression,MAIL,247,118,19,21,89
+logistic_regression,VOIP,389,229,89,15,56
+logistic_regression,FT,123,0,63,0,60
+random_forest,CHAT,92,43,18,18,13
+random_forest,MAIL,247,201,10,35,1
+random_forest,VOIP,389,344,14,15,16
+random_forest,FT,123,60,17,42,4
+xgboost,CHAT,92,46,13,19,14
+xgboost,MAIL,247,200,8,35,4
+xgboost,VOIP,389,342,13,14,20
+xgboost,FT,123,50,17,51,5
