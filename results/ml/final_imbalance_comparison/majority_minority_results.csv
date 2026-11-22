@@ -1,0 +1,49 @@
+model,n_packets,method,role,mean_pooled_class_f1
+logistic_regression,3,Class Weighting,Majority,0.41540018055598793
+logistic_regression,3,Class Weighting,Minority,0.37297336845185836
+logistic_regression,3,Original,Majority,0.5344872803566745
+logistic_regression,3,Original,Minority,0.125
+logistic_regression,3,Random Oversampling,Majority,0.41459789507511846
+logistic_regression,3,Random Oversampling,Minority,0.3739877483938443
+logistic_regression,5,Class Weighting,Majority,0.5554099649490615
+logistic_regression,5,Class Weighting,Minority,0.3902392675131726
+logistic_regression,5,Original,Majority,0.5247832036485067
+logistic_regression,5,Original,Minority,0.1714285714285714
+logistic_regression,5,Random Oversampling,Majority,0.5510587693724106
+logistic_regression,5,Random Oversampling,Minority,0.3875845534720438
+logistic_regression,10,Class Weighting,Majority,0.5842951094984462
+logistic_regression,10,Class Weighting,Minority,0.469357939254133
+logistic_regression,10,Original,Majority,0.6712843717368604
+logistic_regression,10,Original,Minority,0.21213216313887456
+logistic_regression,10,Random Oversampling,Majority,0.5923334551211789
+logistic_regression,10,Random Oversampling,Minority,0.4695798188066229
+logistic_regression,20,Class Weighting,Majority,0.7297279356196
+logistic_regression,20,Class Weighting,Minority,0.49934938191281714
+logistic_regression,20,Original,Majority,0.7305758177353491
+logistic_regression,20,Original,Minority,0.4178350720978138
+logistic_regression,20,Random Oversampling,Majority,0.7333075088177129
+logistic_regression,20,Random Oversampling,Minority,0.5259085818996233
+random_forest,3,Class Weighting,Majority,0.9205793709497576
+random_forest,3,Class Weighting,Minority,0.7036105356614383
+random_forest,3,Original,Majority,0.912515671029619
+random_forest,3,Original,Minority,0.6690987124463519
+random_forest,3,Random Oversampling,Majority,0.920123287058771
+random_forest,3,Random Oversampling,Minority,0.6842365053062087
+random_forest,5,Class Weighting,Majority,0.9295312231092048
+random_forest,5,Class Weighting,Minority,0.7733749159175687
+random_forest,5,Original,Majority,0.928901919464932
+random_forest,5,Original,Minority,0.7729855127355364
+random_forest,5,Random Oversampling,Majority,0.9315867841764256
+random_forest,5,Random Oversampling,Minority,0.7940461607264384
+random_forest,10,Class Weighting,Majority,0.9163420007717298
+random_forest,10,Class Weighting,Minority,0.6875127420998981
+random_forest,10,Original,Majority,0.9164692917940254
+random_forest,10,Original,Minority,0.6870165745856354
+random_forest,10,Random Oversampling,Majority,0.9173332312755942
+random_forest,10,Random Oversampling,Minority,0.6981318758981365
+random_forest,20,Class Weighting,Majority,0.8346255418805122
+random_forest,20,Class Weighting,Minority,0.6406876630114704
+random_forest,20,Original,Majority,0.8503479817061046
+random_forest,20,Original,Minority,0.6378390648053569
+random_forest,20,Random Oversampling,Majority,0.855834484876401
+random_forest,20,Random Oversampling,Minority,0.6909090909090909

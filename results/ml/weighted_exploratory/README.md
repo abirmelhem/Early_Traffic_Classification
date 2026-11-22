@@ -1,0 +1,1 @@
+Exploratory class-weighted experiment. Original validation-selected hyperparameters are reused. Class weights are computed from the train+validation partition, never test data. Baseline test results were already inspected, so new comparisons are exploratory. Capture-derived labels remain unverified. Original baseline results are unchanged.
