@@ -1,0 +1,577 @@
+n_packets,true_class,predicted_class,count,row_pct,model,method
+3,CHAT,CHAT,16,17.391304347826086,logistic_regression,Baseline
+3,CHAT,MAIL,27,29.347826086956523,logistic_regression,Baseline
+3,CHAT,VOIP,49,53.26086956521739,logistic_regression,Baseline
+3,CHAT,FT,0,0.0,logistic_regression,Baseline
+3,MAIL,CHAT,3,1.214574898785425,logistic_regression,Baseline
+3,MAIL,MAIL,152,61.53846153846154,logistic_regression,Baseline
+3,MAIL,VOIP,92,37.24696356275304,logistic_regression,Baseline
+3,MAIL,FT,0,0.0,logistic_regression,Baseline
+3,VOIP,CHAT,15,3.8560411311053984,logistic_regression,Baseline
+3,VOIP,MAIL,135,34.70437017994858,logistic_regression,Baseline
+3,VOIP,VOIP,238,61.18251928020565,logistic_regression,Baseline
+3,VOIP,FT,1,0.2570694087403599,logistic_regression,Baseline
+3,FT,CHAT,2,1.6260162601626016,logistic_regression,Baseline
+3,FT,MAIL,28,22.764227642276424,logistic_regression,Baseline
+3,FT,VOIP,93,75.60975609756098,logistic_regression,Baseline
+3,FT,FT,0,0.0,logistic_regression,Baseline
+5,CHAT,CHAT,24,26.08695652173913,logistic_regression,Baseline
+5,CHAT,MAIL,9,9.782608695652174,logistic_regression,Baseline
+5,CHAT,VOIP,59,64.1304347826087,logistic_regression,Baseline
+5,CHAT,FT,0,0.0,logistic_regression,Baseline
+5,MAIL,CHAT,4,1.6194331983805668,logistic_regression,Baseline
+5,MAIL,MAIL,139,56.2753036437247,logistic_regression,Baseline
+5,MAIL,VOIP,103,41.70040485829959,logistic_regression,Baseline
+5,MAIL,FT,1,0.4048582995951417,logistic_regression,Baseline
+5,VOIP,CHAT,18,4.627249357326479,logistic_regression,Baseline
+5,VOIP,MAIL,125,32.13367609254499,logistic_regression,Baseline
+5,VOIP,VOIP,244,62.724935732647815,logistic_regression,Baseline
+5,VOIP,FT,2,0.5141388174807198,logistic_regression,Baseline
+5,FT,CHAT,2,1.6260162601626016,logistic_regression,Baseline
+5,FT,MAIL,59,47.96747967479675,logistic_regression,Baseline
+5,FT,VOIP,62,50.40650406504065,logistic_regression,Baseline
+5,FT,FT,0,0.0,logistic_regression,Baseline
+10,CHAT,CHAT,11,11.956521739130435,logistic_regression,Baseline
+10,CHAT,MAIL,10,10.869565217391305,logistic_regression,Baseline
+10,CHAT,VOIP,71,77.17391304347827,logistic_regression,Baseline
+10,CHAT,FT,0,0.0,logistic_regression,Baseline
+10,MAIL,CHAT,3,1.214574898785425,logistic_regression,Baseline
+10,MAIL,MAIL,204,82.5910931174089,logistic_regression,Baseline
+10,MAIL,VOIP,38,15.384615384615385,logistic_regression,Baseline
+10,MAIL,FT,2,0.8097165991902834,logistic_regression,Baseline
+10,VOIP,CHAT,22,5.655526992287918,logistic_regression,Baseline
+10,VOIP,MAIL,93,23.90745501285347,logistic_regression,Baseline
+10,VOIP,VOIP,269,69.15167095115682,logistic_regression,Baseline
+10,VOIP,FT,5,1.2853470437017995,logistic_regression,Baseline
+10,FT,CHAT,2,1.6260162601626016,logistic_regression,Baseline
+10,FT,MAIL,24,19.51219512195122,logistic_regression,Baseline
+10,FT,VOIP,78,63.41463414634146,logistic_regression,Baseline
+10,FT,FT,19,15.447154471544716,logistic_regression,Baseline
+20,CHAT,CHAT,18,19.565217391304348,logistic_regression,Baseline
+20,CHAT,MAIL,8,8.695652173913043,logistic_regression,Baseline
+20,CHAT,VOIP,54,58.69565217391305,logistic_regression,Baseline
+20,CHAT,FT,12,13.043478260869565,logistic_regression,Baseline
+20,MAIL,CHAT,1,0.4048582995951417,logistic_regression,Baseline
+20,MAIL,MAIL,207,83.80566801619433,logistic_regression,Baseline
+20,MAIL,VOIP,38,15.384615384615385,logistic_regression,Baseline
+20,MAIL,FT,1,0.4048582995951417,logistic_regression,Baseline
+20,VOIP,CHAT,16,4.113110539845758,logistic_regression,Baseline
+20,VOIP,MAIL,82,21.079691516709513,logistic_regression,Baseline
+20,VOIP,VOIP,285,73.26478149100257,logistic_regression,Baseline
+20,VOIP,FT,6,1.5424164524421593,logistic_regression,Baseline
+20,FT,CHAT,22,17.88617886178862,logistic_regression,Baseline
+20,FT,MAIL,13,10.56910569105691,logistic_regression,Baseline
+20,FT,VOIP,28,22.764227642276424,logistic_regression,Baseline
+20,FT,FT,60,48.78048780487805,logistic_regression,Baseline
+3,CHAT,CHAT,46,50.0,logistic_regression,Class weighting
+3,CHAT,MAIL,35,38.04347826086956,logistic_regression,Class weighting
+3,CHAT,VOIP,11,11.956521739130435,logistic_regression,Class weighting
+3,CHAT,FT,0,0.0,logistic_regression,Class weighting
+3,MAIL,CHAT,5,2.0242914979757085,logistic_regression,Class weighting
+3,MAIL,MAIL,225,91.09311740890688,logistic_regression,Class weighting
+3,MAIL,VOIP,5,2.0242914979757085,logistic_regression,Class weighting
+3,MAIL,FT,12,4.8582995951417,logistic_regression,Class weighting
+3,VOIP,CHAT,55,14.138817480719794,logistic_regression,Class weighting
+3,VOIP,MAIL,134,34.447300771208226,logistic_regression,Class weighting
+3,VOIP,VOIP,44,11.311053984575835,logistic_regression,Class weighting
+3,VOIP,FT,156,40.102827763496144,logistic_regression,Class weighting
+3,FT,CHAT,3,2.4390243902439024,logistic_regression,Class weighting
+3,FT,MAIL,65,52.84552845528455,logistic_regression,Class weighting
+3,FT,VOIP,6,4.878048780487805,logistic_regression,Class weighting
+3,FT,FT,49,39.83739837398374,logistic_regression,Class weighting
+5,CHAT,CHAT,69,75.0,logistic_regression,Class weighting
+5,CHAT,MAIL,11,11.956521739130435,logistic_regression,Class weighting
+5,CHAT,VOIP,10,10.869565217391305,logistic_regression,Class weighting
+5,CHAT,FT,2,2.1739130434782608,logistic_regression,Class weighting
+5,MAIL,CHAT,10,4.048582995951417,logistic_regression,Class weighting
+5,MAIL,MAIL,223,90.2834008097166,logistic_regression,Class weighting
+5,MAIL,VOIP,6,2.42914979757085,logistic_regression,Class weighting
+5,MAIL,FT,8,3.2388663967611335,logistic_regression,Class weighting
+5,VOIP,CHAT,43,11.053984575835475,logistic_regression,Class weighting
+5,VOIP,MAIL,123,31.619537275064268,logistic_regression,Class weighting
+5,VOIP,VOIP,123,31.619537275064268,logistic_regression,Class weighting
+5,VOIP,FT,100,25.70694087403599,logistic_regression,Class weighting
+5,FT,CHAT,13,10.56910569105691,logistic_regression,Class weighting
+5,FT,MAIL,82,66.66666666666667,logistic_regression,Class weighting
+5,FT,VOIP,6,4.878048780487805,logistic_regression,Class weighting
+5,FT,FT,22,17.88617886178862,logistic_regression,Class weighting
+10,CHAT,CHAT,66,71.73913043478261,logistic_regression,Class weighting
+10,CHAT,MAIL,9,9.782608695652174,logistic_regression,Class weighting
+10,CHAT,VOIP,7,7.608695652173913,logistic_regression,Class weighting
+10,CHAT,FT,10,10.869565217391305,logistic_regression,Class weighting
+10,MAIL,CHAT,14,5.668016194331984,logistic_regression,Class weighting
+10,MAIL,MAIL,207,83.80566801619433,logistic_regression,Class weighting
+10,MAIL,VOIP,11,4.4534412955465585,logistic_regression,Class weighting
+10,MAIL,FT,15,6.0728744939271255,logistic_regression,Class weighting
+10,VOIP,CHAT,83,21.336760925449873,logistic_regression,Class weighting
+10,VOIP,MAIL,101,25.96401028277635,logistic_regression,Class weighting
+10,VOIP,VOIP,129,33.16195372750643,logistic_regression,Class weighting
+10,VOIP,FT,76,19.53727506426735,logistic_regression,Class weighting
+10,FT,CHAT,15,12.195121951219512,logistic_regression,Class weighting
+10,FT,MAIL,25,20.32520325203252,logistic_regression,Class weighting
+10,FT,VOIP,18,14.634146341463415,logistic_regression,Class weighting
+10,FT,FT,65,52.84552845528455,logistic_regression,Class weighting
+20,CHAT,CHAT,48,52.17391304347826,logistic_regression,Class weighting
+20,CHAT,MAIL,10,10.869565217391305,logistic_regression,Class weighting
+20,CHAT,VOIP,20,21.73913043478261,logistic_regression,Class weighting
+20,CHAT,FT,14,15.217391304347826,logistic_regression,Class weighting
+20,MAIL,CHAT,10,4.048582995951417,logistic_regression,Class weighting
+20,MAIL,MAIL,211,85.4251012145749,logistic_regression,Class weighting
+20,MAIL,VOIP,25,10.121457489878543,logistic_regression,Class weighting
+20,MAIL,FT,1,0.4048582995951417,logistic_regression,Class weighting
+20,VOIP,CHAT,46,11.825192802056556,logistic_regression,Class weighting
+20,VOIP,MAIL,84,21.59383033419023,logistic_regression,Class weighting
+20,VOIP,VOIP,247,63.49614395886889,logistic_regression,Class weighting
+20,VOIP,FT,12,3.0848329048843186,logistic_regression,Class weighting
+20,FT,CHAT,36,29.26829268292683,logistic_regression,Class weighting
+20,FT,MAIL,14,11.382113821138212,logistic_regression,Class weighting
+20,FT,VOIP,11,8.94308943089431,logistic_regression,Class weighting
+20,FT,FT,62,50.40650406504065,logistic_regression,Class weighting
+3,CHAT,CHAT,46,50.0,logistic_regression,Corrected ROS
+3,CHAT,MAIL,35,38.04347826086956,logistic_regression,Corrected ROS
+3,CHAT,VOIP,11,11.956521739130435,logistic_regression,Corrected ROS
+3,CHAT,FT,0,0.0,logistic_regression,Corrected ROS
+3,MAIL,CHAT,5,2.0242914979757085,logistic_regression,Corrected ROS
+3,MAIL,MAIL,224,90.68825910931174,logistic_regression,Corrected ROS
+3,MAIL,VOIP,7,2.834008097165992,logistic_regression,Corrected ROS
+3,MAIL,FT,11,4.4534412955465585,logistic_regression,Corrected ROS
+3,VOIP,CHAT,46,11.825192802056556,logistic_regression,Corrected ROS
+3,VOIP,MAIL,134,34.447300771208226,logistic_regression,Corrected ROS
+3,VOIP,VOIP,43,11.053984575835475,logistic_regression,Corrected ROS
+3,VOIP,FT,166,42.673521850899746,logistic_regression,Corrected ROS
+3,FT,CHAT,3,2.4390243902439024,logistic_regression,Corrected ROS
+3,FT,MAIL,65,52.84552845528455,logistic_regression,Corrected ROS
+3,FT,VOIP,6,4.878048780487805,logistic_regression,Corrected ROS
+3,FT,FT,49,39.83739837398374,logistic_regression,Corrected ROS
+5,CHAT,CHAT,70,76.08695652173913,logistic_regression,Corrected ROS
+5,CHAT,MAIL,10,10.869565217391305,logistic_regression,Corrected ROS
+5,CHAT,VOIP,10,10.869565217391305,logistic_regression,Corrected ROS
+5,CHAT,FT,2,2.1739130434782608,logistic_regression,Corrected ROS
+5,MAIL,CHAT,10,4.048582995951417,logistic_regression,Corrected ROS
+5,MAIL,MAIL,222,89.87854251012146,logistic_regression,Corrected ROS
+5,MAIL,VOIP,6,2.42914979757085,logistic_regression,Corrected ROS
+5,MAIL,FT,9,3.6437246963562755,logistic_regression,Corrected ROS
+5,VOIP,CHAT,42,10.796915167095115,logistic_regression,Corrected ROS
+5,VOIP,MAIL,133,34.19023136246787,logistic_regression,Corrected ROS
+5,VOIP,VOIP,119,30.591259640102827,logistic_regression,Corrected ROS
+5,VOIP,FT,95,24.42159383033419,logistic_regression,Corrected ROS
+5,FT,CHAT,12,9.75609756097561,logistic_regression,Corrected ROS
+5,FT,MAIL,82,66.66666666666667,logistic_regression,Corrected ROS
+5,FT,VOIP,7,5.691056910569106,logistic_regression,Corrected ROS
+5,FT,FT,22,17.88617886178862,logistic_regression,Corrected ROS
+10,CHAT,CHAT,74,80.43478260869566,logistic_regression,Corrected ROS
+10,CHAT,MAIL,8,8.695652173913043,logistic_regression,Corrected ROS
+10,CHAT,VOIP,7,7.608695652173913,logistic_regression,Corrected ROS
+10,CHAT,FT,3,3.260869565217391,logistic_regression,Corrected ROS
+10,MAIL,CHAT,14,5.668016194331984,logistic_regression,Corrected ROS
+10,MAIL,MAIL,207,83.80566801619433,logistic_regression,Corrected ROS
+10,MAIL,VOIP,8,3.2388663967611335,logistic_regression,Corrected ROS
+10,MAIL,FT,18,7.287449392712551,logistic_regression,Corrected ROS
+10,VOIP,CHAT,92,23.65038560411311,logistic_regression,Corrected ROS
+10,VOIP,MAIL,96,24.67866323907455,logistic_regression,Corrected ROS
+10,VOIP,VOIP,137,35.2185089974293,logistic_regression,Corrected ROS
+10,VOIP,FT,64,16.452442159383033,logistic_regression,Corrected ROS
+10,FT,CHAT,24,19.51219512195122,logistic_regression,Corrected ROS
+10,FT,MAIL,25,20.32520325203252,logistic_regression,Corrected ROS
+10,FT,VOIP,10,8.130081300813009,logistic_regression,Corrected ROS
+10,FT,FT,64,52.03252032520325,logistic_regression,Corrected ROS
+20,CHAT,CHAT,55,59.78260869565217,logistic_regression,Corrected ROS
+20,CHAT,MAIL,8,8.695652173913043,logistic_regression,Corrected ROS
+20,CHAT,VOIP,20,21.73913043478261,logistic_regression,Corrected ROS
+20,CHAT,FT,9,9.782608695652174,logistic_regression,Corrected ROS
+20,MAIL,CHAT,9,3.6437246963562755,logistic_regression,Corrected ROS
+20,MAIL,MAIL,216,87.4493927125506,logistic_regression,Corrected ROS
+20,MAIL,VOIP,21,8.502024291497976,logistic_regression,Corrected ROS
+20,MAIL,FT,1,0.4048582995951417,logistic_regression,Corrected ROS
+20,VOIP,CHAT,45,11.568123393316196,logistic_regression,Corrected ROS
+20,VOIP,MAIL,81,20.822622107969153,logistic_regression,Corrected ROS
+20,VOIP,VOIP,248,63.753213367609256,logistic_regression,Corrected ROS
+20,VOIP,FT,15,3.8560411311053984,logistic_regression,Corrected ROS
+20,FT,CHAT,37,30.08130081300813,logistic_regression,Corrected ROS
+20,FT,MAIL,13,10.56910569105691,logistic_regression,Corrected ROS
+20,FT,VOIP,11,8.94308943089431,logistic_regression,Corrected ROS
+20,FT,FT,62,50.40650406504065,logistic_regression,Corrected ROS
+3,CHAT,CHAT,54,58.69565217391305,random_forest,Baseline
+3,CHAT,MAIL,1,1.0869565217391304,random_forest,Baseline
+3,CHAT,VOIP,28,30.434782608695652,random_forest,Baseline
+3,CHAT,FT,9,9.782608695652174,random_forest,Baseline
+3,MAIL,CHAT,5,2.0242914979757085,random_forest,Baseline
+3,MAIL,MAIL,224,90.68825910931174,random_forest,Baseline
+3,MAIL,VOIP,13,5.2631578947368425,random_forest,Baseline
+3,MAIL,FT,5,2.0242914979757085,random_forest,Baseline
+3,VOIP,CHAT,15,3.8560411311053984,random_forest,Baseline
+3,VOIP,MAIL,4,1.0282776349614395,random_forest,Baseline
+3,VOIP,VOIP,360,92.54498714652956,random_forest,Baseline
+3,VOIP,FT,10,2.570694087403599,random_forest,Baseline
+3,FT,CHAT,14,11.382113821138212,random_forest,Baseline
+3,FT,MAIL,2,1.6260162601626016,random_forest,Baseline
+3,FT,VOIP,21,17.073170731707318,random_forest,Baseline
+3,FT,FT,86,69.91869918699187,random_forest,Baseline
+5,CHAT,CHAT,61,66.30434782608695,random_forest,Baseline
+5,CHAT,MAIL,4,4.3478260869565215,random_forest,Baseline
+5,CHAT,VOIP,25,27.17391304347826,random_forest,Baseline
+5,CHAT,FT,2,2.1739130434782608,random_forest,Baseline
+5,MAIL,CHAT,4,1.6194331983805668,random_forest,Baseline
+5,MAIL,MAIL,236,95.54655870445345,random_forest,Baseline
+5,MAIL,VOIP,5,2.0242914979757085,random_forest,Baseline
+5,MAIL,FT,2,0.8097165991902834,random_forest,Baseline
+5,VOIP,CHAT,16,4.113110539845758,random_forest,Baseline
+5,VOIP,MAIL,7,1.7994858611825193,random_forest,Baseline
+5,VOIP,VOIP,359,92.2879177377892,random_forest,Baseline
+5,VOIP,FT,7,1.7994858611825193,random_forest,Baseline
+5,FT,CHAT,6,4.878048780487805,random_forest,Baseline
+5,FT,MAIL,4,3.252032520325203,random_forest,Baseline
+5,FT,VOIP,11,8.94308943089431,random_forest,Baseline
+5,FT,FT,102,82.92682926829268,random_forest,Baseline
+10,CHAT,CHAT,61,66.30434782608695,random_forest,Baseline
+10,CHAT,MAIL,9,9.782608695652174,random_forest,Baseline
+10,CHAT,VOIP,17,18.47826086956522,random_forest,Baseline
+10,CHAT,FT,5,5.434782608695652,random_forest,Baseline
+10,MAIL,CHAT,9,3.6437246963562755,random_forest,Baseline
+10,MAIL,MAIL,232,93.92712550607287,random_forest,Baseline
+10,MAIL,VOIP,3,1.214574898785425,random_forest,Baseline
+10,MAIL,FT,3,1.214574898785425,random_forest,Baseline
+10,VOIP,CHAT,11,2.827763496143959,random_forest,Baseline
+10,VOIP,MAIL,3,0.7712082262210797,random_forest,Baseline
+10,VOIP,VOIP,363,93.31619537275064,random_forest,Baseline
+10,VOIP,FT,12,3.0848329048843186,random_forest,Baseline
+10,FT,CHAT,8,6.504065040650406,random_forest,Baseline
+10,FT,MAIL,11,8.94308943089431,random_forest,Baseline
+10,FT,VOIP,27,21.951219512195124,random_forest,Baseline
+10,FT,FT,77,62.60162601626016,random_forest,Baseline
+20,CHAT,CHAT,56,60.869565217391305,random_forest,Baseline
+20,CHAT,MAIL,5,5.434782608695652,random_forest,Baseline
+20,CHAT,VOIP,26,28.26086956521739,random_forest,Baseline
+20,CHAT,FT,5,5.434782608695652,random_forest,Baseline
+20,MAIL,CHAT,7,2.834008097165992,random_forest,Baseline
+20,MAIL,MAIL,202,81.78137651821862,random_forest,Baseline
+20,MAIL,VOIP,37,14.979757085020243,random_forest,Baseline
+20,MAIL,FT,1,0.4048582995951417,random_forest,Baseline
+20,VOIP,CHAT,9,2.3136246786632393,random_forest,Baseline
+20,VOIP,MAIL,15,3.8560411311053984,random_forest,Baseline
+20,VOIP,VOIP,360,92.54498714652956,random_forest,Baseline
+20,VOIP,FT,5,1.2853470437017995,random_forest,Baseline
+20,FT,CHAT,14,11.382113821138212,random_forest,Baseline
+20,FT,MAIL,1,0.8130081300813008,random_forest,Baseline
+20,FT,VOIP,44,35.77235772357724,random_forest,Baseline
+20,FT,FT,64,52.03252032520325,random_forest,Baseline
+3,CHAT,CHAT,69,75.0,random_forest,Class weighting
+3,CHAT,MAIL,0,0.0,random_forest,Class weighting
+3,CHAT,VOIP,13,14.130434782608695,random_forest,Class weighting
+3,CHAT,FT,10,10.869565217391305,random_forest,Class weighting
+3,MAIL,CHAT,7,2.834008097165992,random_forest,Class weighting
+3,MAIL,MAIL,225,91.09311740890688,random_forest,Class weighting
+3,MAIL,VOIP,8,3.2388663967611335,random_forest,Class weighting
+3,MAIL,FT,7,2.834008097165992,random_forest,Class weighting
+3,VOIP,CHAT,33,8.483290488431876,random_forest,Class weighting
+3,VOIP,MAIL,3,0.7712082262210797,random_forest,Class weighting
+3,VOIP,VOIP,341,87.66066838046272,random_forest,Class weighting
+3,VOIP,FT,12,3.0848329048843186,random_forest,Class weighting
+3,FT,CHAT,17,13.821138211382113,random_forest,Class weighting
+3,FT,MAIL,3,2.4390243902439024,random_forest,Class weighting
+3,FT,VOIP,7,5.691056910569106,random_forest,Class weighting
+3,FT,FT,96,78.04878048780488,random_forest,Class weighting
+5,CHAT,CHAT,71,77.17391304347827,random_forest,Class weighting
+5,CHAT,MAIL,3,3.260869565217391,random_forest,Class weighting
+5,CHAT,VOIP,15,16.304347826086957,random_forest,Class weighting
+5,CHAT,FT,3,3.260869565217391,random_forest,Class weighting
+5,MAIL,CHAT,7,2.834008097165992,random_forest,Class weighting
+5,MAIL,MAIL,235,95.1417004048583,random_forest,Class weighting
+5,MAIL,VOIP,2,0.8097165991902834,random_forest,Class weighting
+5,MAIL,FT,3,1.214574898785425,random_forest,Class weighting
+5,VOIP,CHAT,29,7.455012853470437,random_forest,Class weighting
+5,VOIP,MAIL,7,1.7994858611825193,random_forest,Class weighting
+5,VOIP,VOIP,347,89.20308483290488,random_forest,Class weighting
+5,VOIP,FT,6,1.5424164524421593,random_forest,Class weighting
+5,FT,CHAT,8,6.504065040650406,random_forest,Class weighting
+5,FT,MAIL,3,2.4390243902439024,random_forest,Class weighting
+5,FT,VOIP,10,8.130081300813009,random_forest,Class weighting
+5,FT,FT,102,82.92682926829268,random_forest,Class weighting
+10,CHAT,CHAT,61,66.30434782608695,random_forest,Class weighting
+10,CHAT,MAIL,10,10.869565217391305,random_forest,Class weighting
+10,CHAT,VOIP,15,16.304347826086957,random_forest,Class weighting
+10,CHAT,FT,6,6.521739130434782,random_forest,Class weighting
+10,MAIL,CHAT,8,3.2388663967611335,random_forest,Class weighting
+10,MAIL,MAIL,231,93.52226720647774,random_forest,Class weighting
+10,MAIL,VOIP,5,2.0242914979757085,random_forest,Class weighting
+10,MAIL,FT,3,1.214574898785425,random_forest,Class weighting
+10,VOIP,CHAT,13,3.341902313624679,random_forest,Class weighting
+10,VOIP,MAIL,1,0.2570694087403599,random_forest,Class weighting
+10,VOIP,VOIP,365,93.83033419023137,random_forest,Class weighting
+10,VOIP,FT,10,2.570694087403599,random_forest,Class weighting
+10,FT,CHAT,6,4.878048780487805,random_forest,Class weighting
+10,FT,MAIL,10,8.130081300813009,random_forest,Class weighting
+10,FT,VOIP,31,25.203252032520325,random_forest,Class weighting
+10,FT,FT,76,61.78861788617886,random_forest,Class weighting
+20,CHAT,CHAT,59,64.1304347826087,random_forest,Class weighting
+20,CHAT,MAIL,6,6.521739130434782,random_forest,Class weighting
+20,CHAT,VOIP,24,26.08695652173913,random_forest,Class weighting
+20,CHAT,FT,3,3.260869565217391,random_forest,Class weighting
+20,MAIL,CHAT,7,2.834008097165992,random_forest,Class weighting
+20,MAIL,MAIL,198,80.16194331983806,random_forest,Class weighting
+20,MAIL,VOIP,41,16.59919028340081,random_forest,Class weighting
+20,MAIL,FT,1,0.4048582995951417,random_forest,Class weighting
+20,VOIP,CHAT,12,3.0848329048843186,random_forest,Class weighting
+20,VOIP,MAIL,16,4.113110539845758,random_forest,Class weighting
+20,VOIP,VOIP,353,90.74550128534705,random_forest,Class weighting
+20,VOIP,FT,8,2.056555269922879,random_forest,Class weighting
+20,FT,CHAT,11,8.94308943089431,random_forest,Class weighting
+20,FT,MAIL,3,2.4390243902439024,random_forest,Class weighting
+20,FT,VOIP,47,38.21138211382114,random_forest,Class weighting
+20,FT,FT,62,50.40650406504065,random_forest,Class weighting
+3,CHAT,CHAT,75,81.52173913043478,random_forest,Corrected ROS
+3,CHAT,MAIL,0,0.0,random_forest,Corrected ROS
+3,CHAT,VOIP,8,8.695652173913043,random_forest,Corrected ROS
+3,CHAT,FT,9,9.782608695652174,random_forest,Corrected ROS
+3,MAIL,CHAT,7,2.834008097165992,random_forest,Corrected ROS
+3,MAIL,MAIL,224,90.68825910931174,random_forest,Corrected ROS
+3,MAIL,VOIP,4,1.6194331983805668,random_forest,Corrected ROS
+3,MAIL,FT,12,4.8582995951417,random_forest,Corrected ROS
+3,VOIP,CHAT,43,11.053984575835475,random_forest,Corrected ROS
+3,VOIP,MAIL,4,1.0282776349614395,random_forest,Corrected ROS
+3,VOIP,VOIP,331,85.08997429305913,random_forest,Corrected ROS
+3,VOIP,FT,11,2.827763496143959,random_forest,Corrected ROS
+3,FT,CHAT,16,13.008130081300813,random_forest,Corrected ROS
+3,FT,MAIL,2,1.6260162601626016,random_forest,Corrected ROS
+3,FT,VOIP,3,2.4390243902439024,random_forest,Corrected ROS
+3,FT,FT,102,82.92682926829268,random_forest,Corrected ROS
+5,CHAT,CHAT,76,82.6086956521739,random_forest,Corrected ROS
+5,CHAT,MAIL,5,5.434782608695652,random_forest,Corrected ROS
+5,CHAT,VOIP,7,7.608695652173913,random_forest,Corrected ROS
+5,CHAT,FT,4,4.3478260869565215,random_forest,Corrected ROS
+5,MAIL,CHAT,7,2.834008097165992,random_forest,Corrected ROS
+5,MAIL,MAIL,233,94.33198380566802,random_forest,Corrected ROS
+5,MAIL,VOIP,1,0.4048582995951417,random_forest,Corrected ROS
+5,MAIL,FT,6,2.42914979757085,random_forest,Corrected ROS
+5,VOIP,CHAT,32,8.226221079691516,random_forest,Corrected ROS
+5,VOIP,MAIL,7,1.7994858611825193,random_forest,Corrected ROS
+5,VOIP,VOIP,343,88.17480719794345,random_forest,Corrected ROS
+5,VOIP,FT,7,1.7994858611825193,random_forest,Corrected ROS
+5,FT,CHAT,9,7.317073170731708,random_forest,Corrected ROS
+5,FT,MAIL,3,2.4390243902439024,random_forest,Corrected ROS
+5,FT,VOIP,7,5.691056910569106,random_forest,Corrected ROS
+5,FT,FT,104,84.55284552845528,random_forest,Corrected ROS
+10,CHAT,CHAT,62,67.3913043478261,random_forest,Corrected ROS
+10,CHAT,MAIL,13,14.130434782608695,random_forest,Corrected ROS
+10,CHAT,VOIP,12,13.043478260869565,random_forest,Corrected ROS
+10,CHAT,FT,5,5.434782608695652,random_forest,Corrected ROS
+10,MAIL,CHAT,10,4.048582995951417,random_forest,Corrected ROS
+10,MAIL,MAIL,229,92.71255060728745,random_forest,Corrected ROS
+10,MAIL,VOIP,5,2.0242914979757085,random_forest,Corrected ROS
+10,MAIL,FT,3,1.214574898785425,random_forest,Corrected ROS
+10,VOIP,CHAT,15,3.8560411311053984,random_forest,Corrected ROS
+10,VOIP,MAIL,2,0.5141388174807198,random_forest,Corrected ROS
+10,VOIP,VOIP,360,92.54498714652956,random_forest,Corrected ROS
+10,VOIP,FT,12,3.0848329048843186,random_forest,Corrected ROS
+10,FT,CHAT,5,4.065040650406504,random_forest,Corrected ROS
+10,FT,MAIL,9,7.317073170731708,random_forest,Corrected ROS
+10,FT,VOIP,30,24.390243902439025,random_forest,Corrected ROS
+10,FT,FT,79,64.22764227642277,random_forest,Corrected ROS
+20,CHAT,CHAT,65,70.65217391304348,random_forest,Corrected ROS
+20,CHAT,MAIL,5,5.434782608695652,random_forest,Corrected ROS
+20,CHAT,VOIP,18,19.565217391304348,random_forest,Corrected ROS
+20,CHAT,FT,4,4.3478260869565215,random_forest,Corrected ROS
+20,MAIL,CHAT,8,3.2388663967611335,random_forest,Corrected ROS
+20,MAIL,MAIL,205,82.99595141700405,random_forest,Corrected ROS
+20,MAIL,VOIP,33,13.360323886639677,random_forest,Corrected ROS
+20,MAIL,FT,1,0.4048582995951417,random_forest,Corrected ROS
+20,VOIP,CHAT,12,3.0848329048843186,random_forest,Corrected ROS
+20,VOIP,MAIL,15,3.8560411311053984,random_forest,Corrected ROS
+20,VOIP,VOIP,354,91.00257069408741,random_forest,Corrected ROS
+20,VOIP,FT,8,2.056555269922879,random_forest,Corrected ROS
+20,FT,CHAT,14,11.382113821138212,random_forest,Corrected ROS
+20,FT,MAIL,4,3.252032520325203,random_forest,Corrected ROS
+20,FT,VOIP,38,30.89430894308943,random_forest,Corrected ROS
+20,FT,FT,67,54.47154471544715,random_forest,Corrected ROS
+3,CHAT,CHAT,46,50.0,xgboost,Baseline
+3,CHAT,MAIL,6,6.521739130434782,xgboost,Baseline
+3,CHAT,VOIP,24,26.08695652173913,xgboost,Baseline
+3,CHAT,FT,16,17.391304347826086,xgboost,Baseline
+3,MAIL,CHAT,5,2.0242914979757085,xgboost,Baseline
+3,MAIL,MAIL,229,92.71255060728745,xgboost,Baseline
+3,MAIL,VOIP,9,3.6437246963562755,xgboost,Baseline
+3,MAIL,FT,4,1.6194331983805668,xgboost,Baseline
+3,VOIP,CHAT,10,2.570694087403599,xgboost,Baseline
+3,VOIP,MAIL,10,2.570694087403599,xgboost,Baseline
+3,VOIP,VOIP,357,91.77377892030849,xgboost,Baseline
+3,VOIP,FT,12,3.0848329048843186,xgboost,Baseline
+3,FT,CHAT,12,9.75609756097561,xgboost,Baseline
+3,FT,MAIL,4,3.252032520325203,xgboost,Baseline
+3,FT,VOIP,15,12.195121951219512,xgboost,Baseline
+3,FT,FT,92,74.79674796747967,xgboost,Baseline
+5,CHAT,CHAT,65,70.65217391304348,xgboost,Baseline
+5,CHAT,MAIL,1,1.0869565217391304,xgboost,Baseline
+5,CHAT,VOIP,21,22.82608695652174,xgboost,Baseline
+5,CHAT,FT,5,5.434782608695652,xgboost,Baseline
+5,MAIL,CHAT,3,1.214574898785425,xgboost,Baseline
+5,MAIL,MAIL,235,95.1417004048583,xgboost,Baseline
+5,MAIL,VOIP,5,2.0242914979757085,xgboost,Baseline
+5,MAIL,FT,4,1.6194331983805668,xgboost,Baseline
+5,VOIP,CHAT,16,4.113110539845758,xgboost,Baseline
+5,VOIP,MAIL,10,2.570694087403599,xgboost,Baseline
+5,VOIP,VOIP,356,91.51670951156812,xgboost,Baseline
+5,VOIP,FT,7,1.7994858611825193,xgboost,Baseline
+5,FT,CHAT,3,2.4390243902439024,xgboost,Baseline
+5,FT,MAIL,3,2.4390243902439024,xgboost,Baseline
+5,FT,VOIP,16,13.008130081300813,xgboost,Baseline
+5,FT,FT,101,82.11382113821138,xgboost,Baseline
+10,CHAT,CHAT,64,69.56521739130434,xgboost,Baseline
+10,CHAT,MAIL,11,11.956521739130435,xgboost,Baseline
+10,CHAT,VOIP,15,16.304347826086957,xgboost,Baseline
+10,CHAT,FT,2,2.1739130434782608,xgboost,Baseline
+10,MAIL,CHAT,6,2.42914979757085,xgboost,Baseline
+10,MAIL,MAIL,234,94.73684210526316,xgboost,Baseline
+10,MAIL,VOIP,4,1.6194331983805668,xgboost,Baseline
+10,MAIL,FT,3,1.214574898785425,xgboost,Baseline
+10,VOIP,CHAT,16,4.113110539845758,xgboost,Baseline
+10,VOIP,MAIL,4,1.0282776349614395,xgboost,Baseline
+10,VOIP,VOIP,363,93.31619537275064,xgboost,Baseline
+10,VOIP,FT,6,1.5424164524421593,xgboost,Baseline
+10,FT,CHAT,9,7.317073170731708,xgboost,Baseline
+10,FT,MAIL,7,5.691056910569106,xgboost,Baseline
+10,FT,VOIP,22,17.88617886178862,xgboost,Baseline
+10,FT,FT,85,69.10569105691057,xgboost,Baseline
+20,CHAT,CHAT,60,65.21739130434783,xgboost,Baseline
+20,CHAT,MAIL,7,7.608695652173913,xgboost,Baseline
+20,CHAT,VOIP,20,21.73913043478261,xgboost,Baseline
+20,CHAT,FT,5,5.434782608695652,xgboost,Baseline
+20,MAIL,CHAT,6,2.42914979757085,xgboost,Baseline
+20,MAIL,MAIL,204,82.5910931174089,xgboost,Baseline
+20,MAIL,VOIP,36,14.574898785425102,xgboost,Baseline
+20,MAIL,FT,1,0.4048582995951417,xgboost,Baseline
+20,VOIP,CHAT,8,2.056555269922879,xgboost,Baseline
+20,VOIP,MAIL,15,3.8560411311053984,xgboost,Baseline
+20,VOIP,VOIP,362,93.05912596401028,xgboost,Baseline
+20,VOIP,FT,4,1.0282776349614395,xgboost,Baseline
+20,FT,CHAT,18,14.634146341463415,xgboost,Baseline
+20,FT,MAIL,5,4.065040650406504,xgboost,Baseline
+20,FT,VOIP,45,36.58536585365854,xgboost,Baseline
+20,FT,FT,55,44.71544715447155,xgboost,Baseline
+3,CHAT,CHAT,65,70.65217391304348,xgboost,Class weighting
+3,CHAT,MAIL,3,3.260869565217391,xgboost,Class weighting
+3,CHAT,VOIP,9,9.782608695652174,xgboost,Class weighting
+3,CHAT,FT,15,16.304347826086957,xgboost,Class weighting
+3,MAIL,CHAT,9,3.6437246963562755,xgboost,Class weighting
+3,MAIL,MAIL,224,90.68825910931174,xgboost,Class weighting
+3,MAIL,VOIP,6,2.42914979757085,xgboost,Class weighting
+3,MAIL,FT,8,3.2388663967611335,xgboost,Class weighting
+3,VOIP,CHAT,34,8.740359897172237,xgboost,Class weighting
+3,VOIP,MAIL,15,3.8560411311053984,xgboost,Class weighting
+3,VOIP,VOIP,327,84.06169665809769,xgboost,Class weighting
+3,VOIP,FT,13,3.341902313624679,xgboost,Class weighting
+3,FT,CHAT,17,13.821138211382113,xgboost,Class weighting
+3,FT,MAIL,2,1.6260162601626016,xgboost,Class weighting
+3,FT,VOIP,9,7.317073170731708,xgboost,Class weighting
+3,FT,FT,95,77.23577235772358,xgboost,Class weighting
+5,CHAT,CHAT,74,80.43478260869566,xgboost,Class weighting
+5,CHAT,MAIL,0,0.0,xgboost,Class weighting
+5,CHAT,VOIP,13,14.130434782608695,xgboost,Class weighting
+5,CHAT,FT,5,5.434782608695652,xgboost,Class weighting
+5,MAIL,CHAT,5,2.0242914979757085,xgboost,Class weighting
+5,MAIL,MAIL,233,94.33198380566802,xgboost,Class weighting
+5,MAIL,VOIP,3,1.214574898785425,xgboost,Class weighting
+5,MAIL,FT,6,2.42914979757085,xgboost,Class weighting
+5,VOIP,CHAT,39,10.025706940874036,xgboost,Class weighting
+5,VOIP,MAIL,13,3.341902313624679,xgboost,Class weighting
+5,VOIP,VOIP,328,84.31876606683805,xgboost,Class weighting
+5,VOIP,FT,9,2.3136246786632393,xgboost,Class weighting
+5,FT,CHAT,10,8.130081300813009,xgboost,Class weighting
+5,FT,MAIL,4,3.252032520325203,xgboost,Class weighting
+5,FT,VOIP,6,4.878048780487805,xgboost,Class weighting
+5,FT,FT,103,83.73983739837398,xgboost,Class weighting
+10,CHAT,CHAT,68,73.91304347826087,xgboost,Class weighting
+10,CHAT,MAIL,10,10.869565217391305,xgboost,Class weighting
+10,CHAT,VOIP,10,10.869565217391305,xgboost,Class weighting
+10,CHAT,FT,4,4.3478260869565215,xgboost,Class weighting
+10,MAIL,CHAT,4,1.6194331983805668,xgboost,Class weighting
+10,MAIL,MAIL,234,94.73684210526316,xgboost,Class weighting
+10,MAIL,VOIP,4,1.6194331983805668,xgboost,Class weighting
+10,MAIL,FT,5,2.0242914979757085,xgboost,Class weighting
+10,VOIP,CHAT,24,6.169665809768637,xgboost,Class weighting
+10,VOIP,MAIL,6,1.5424164524421593,xgboost,Class weighting
+10,VOIP,VOIP,349,89.7172236503856,xgboost,Class weighting
+10,VOIP,FT,10,2.570694087403599,xgboost,Class weighting
+10,FT,CHAT,13,10.56910569105691,xgboost,Class weighting
+10,FT,MAIL,4,3.252032520325203,xgboost,Class weighting
+10,FT,VOIP,22,17.88617886178862,xgboost,Class weighting
+10,FT,FT,84,68.29268292682927,xgboost,Class weighting
+20,CHAT,CHAT,65,70.65217391304348,xgboost,Class weighting
+20,CHAT,MAIL,6,6.521739130434782,xgboost,Class weighting
+20,CHAT,VOIP,14,15.217391304347826,xgboost,Class weighting
+20,CHAT,FT,7,7.608695652173913,xgboost,Class weighting
+20,MAIL,CHAT,7,2.834008097165992,xgboost,Class weighting
+20,MAIL,MAIL,207,83.80566801619433,xgboost,Class weighting
+20,MAIL,VOIP,32,12.955465587044534,xgboost,Class weighting
+20,MAIL,FT,1,0.4048582995951417,xgboost,Class weighting
+20,VOIP,CHAT,14,3.5989717223650386,xgboost,Class weighting
+20,VOIP,MAIL,18,4.627249357326479,xgboost,Class weighting
+20,VOIP,VOIP,349,89.7172236503856,xgboost,Class weighting
+20,VOIP,FT,8,2.056555269922879,xgboost,Class weighting
+20,FT,CHAT,26,21.13821138211382,xgboost,Class weighting
+20,FT,MAIL,3,2.4390243902439024,xgboost,Class weighting
+20,FT,VOIP,41,33.333333333333336,xgboost,Class weighting
+20,FT,FT,53,43.08943089430894,xgboost,Class weighting
+3,CHAT,CHAT,63,68.47826086956522,xgboost,Corrected ROS
+3,CHAT,MAIL,5,5.434782608695652,xgboost,Corrected ROS
+3,CHAT,VOIP,10,10.869565217391305,xgboost,Corrected ROS
+3,CHAT,FT,14,15.217391304347826,xgboost,Corrected ROS
+3,MAIL,CHAT,9,3.6437246963562755,xgboost,Corrected ROS
+3,MAIL,MAIL,224,90.68825910931174,xgboost,Corrected ROS
+3,MAIL,VOIP,7,2.834008097165992,xgboost,Corrected ROS
+3,MAIL,FT,7,2.834008097165992,xgboost,Corrected ROS
+3,VOIP,CHAT,35,8.997429305912597,xgboost,Corrected ROS
+3,VOIP,MAIL,12,3.0848329048843186,xgboost,Corrected ROS
+3,VOIP,VOIP,330,84.83290488431876,xgboost,Corrected ROS
+3,VOIP,FT,12,3.0848329048843186,xgboost,Corrected ROS
+3,FT,CHAT,16,13.008130081300813,xgboost,Corrected ROS
+3,FT,MAIL,2,1.6260162601626016,xgboost,Corrected ROS
+3,FT,VOIP,14,11.382113821138212,xgboost,Corrected ROS
+3,FT,FT,91,73.98373983739837,xgboost,Corrected ROS
+5,CHAT,CHAT,73,79.34782608695652,xgboost,Corrected ROS
+5,CHAT,MAIL,2,2.1739130434782608,xgboost,Corrected ROS
+5,CHAT,VOIP,14,15.217391304347826,xgboost,Corrected ROS
+5,CHAT,FT,3,3.260869565217391,xgboost,Corrected ROS
+5,MAIL,CHAT,5,2.0242914979757085,xgboost,Corrected ROS
+5,MAIL,MAIL,233,94.33198380566802,xgboost,Corrected ROS
+5,MAIL,VOIP,4,1.6194331983805668,xgboost,Corrected ROS
+5,MAIL,FT,5,2.0242914979757085,xgboost,Corrected ROS
+5,VOIP,CHAT,28,7.197943444730077,xgboost,Corrected ROS
+5,VOIP,MAIL,14,3.5989717223650386,xgboost,Corrected ROS
+5,VOIP,VOIP,339,87.14652956298201,xgboost,Corrected ROS
+5,VOIP,FT,8,2.056555269922879,xgboost,Corrected ROS
+5,FT,CHAT,9,7.317073170731708,xgboost,Corrected ROS
+5,FT,MAIL,3,2.4390243902439024,xgboost,Corrected ROS
+5,FT,VOIP,8,6.504065040650406,xgboost,Corrected ROS
+5,FT,FT,103,83.73983739837398,xgboost,Corrected ROS
+10,CHAT,CHAT,69,75.0,xgboost,Corrected ROS
+10,CHAT,MAIL,7,7.608695652173913,xgboost,Corrected ROS
+10,CHAT,VOIP,14,15.217391304347826,xgboost,Corrected ROS
+10,CHAT,FT,2,2.1739130434782608,xgboost,Corrected ROS
+10,MAIL,CHAT,6,2.42914979757085,xgboost,Corrected ROS
+10,MAIL,MAIL,235,95.1417004048583,xgboost,Corrected ROS
+10,MAIL,VOIP,1,0.4048582995951417,xgboost,Corrected ROS
+10,MAIL,FT,5,2.0242914979757085,xgboost,Corrected ROS
+10,VOIP,CHAT,22,5.655526992287918,xgboost,Corrected ROS
+10,VOIP,MAIL,5,1.2853470437017995,xgboost,Corrected ROS
+10,VOIP,VOIP,354,91.00257069408741,xgboost,Corrected ROS
+10,VOIP,FT,8,2.056555269922879,xgboost,Corrected ROS
+10,FT,CHAT,9,7.317073170731708,xgboost,Corrected ROS
+10,FT,MAIL,10,8.130081300813009,xgboost,Corrected ROS
+10,FT,VOIP,22,17.88617886178862,xgboost,Corrected ROS
+10,FT,FT,82,66.66666666666667,xgboost,Corrected ROS
+20,CHAT,CHAT,62,67.3913043478261,xgboost,Corrected ROS
+20,CHAT,MAIL,8,8.695652173913043,xgboost,Corrected ROS
+20,CHAT,VOIP,14,15.217391304347826,xgboost,Corrected ROS
+20,CHAT,FT,8,8.695652173913043,xgboost,Corrected ROS
+20,MAIL,CHAT,7,2.834008097165992,xgboost,Corrected ROS
+20,MAIL,MAIL,208,84.21052631578948,xgboost,Corrected ROS
+20,MAIL,VOIP,31,12.550607287449393,xgboost,Corrected ROS
+20,MAIL,FT,1,0.4048582995951417,xgboost,Corrected ROS
+20,VOIP,CHAT,11,2.827763496143959,xgboost,Corrected ROS
+20,VOIP,MAIL,17,4.370179948586118,xgboost,Corrected ROS
+20,VOIP,VOIP,356,91.51670951156812,xgboost,Corrected ROS
+20,VOIP,FT,5,1.2853470437017995,xgboost,Corrected ROS
+20,FT,CHAT,25,20.32520325203252,xgboost,Corrected ROS
+20,FT,MAIL,3,2.4390243902439024,xgboost,Corrected ROS
+20,FT,VOIP,41,33.333333333333336,xgboost,Corrected ROS
+20,FT,FT,54,43.90243902439025,xgboost,Corrected ROS

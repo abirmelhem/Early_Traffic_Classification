@@ -31,17 +31,23 @@ class EncodedXGBClassifier(ClassifierMixin, BaseEstimator):
         self.learning_rate = learning_rate
         self.random_state = random_state
 
-    def fit(self, X, y):
+    def fit(self, X, y, sample_weight=None):
         labels = np.asarray(y)
         if set(labels) != set(CLASSES):
             raise ValueError("XGBoost training requires all four original class labels")
+        if sample_weight is not None:
+            sample_weight = np.asarray(sample_weight, dtype=float)
+            if (sample_weight.shape != (len(labels),) or
+                    not np.isfinite(sample_weight).all() or (sample_weight <= 0).any()):
+                raise ValueError("Sample weights must be finite, positive and aligned with fitting rows")
         mapping = {name: i for i, name in enumerate(CLASSES)}
         self.estimator_ = xgb_class()(n_estimators=self.n_estimators, max_depth=self.max_depth,
                                      learning_rate=self.learning_rate, random_state=self.random_state,
                                      objective="multi:softprob", num_class=len(CLASSES),
                                      tree_method="hist", device="cpu", n_jobs=1,
                                      eval_metric="mlogloss", subsample=1.0, colsample_bytree=1.0)
-        self.estimator_.fit(X, np.array([mapping[name] for name in labels], dtype=int))
+        fit_options = {} if sample_weight is None else {"sample_weight": sample_weight}
+        self.estimator_.fit(X, np.array([mapping[name] for name in labels], dtype=int), **fit_options)
         self.classes_ = np.array(CLASSES)
         return self
 

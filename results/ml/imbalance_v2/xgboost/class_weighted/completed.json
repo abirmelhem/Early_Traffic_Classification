@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "model": "xgboost",
+  "method": "class_weighted",
+  "output_sha256": {
+    "configuration.json": "15c1b91d2a1f0a6abfedb88ea5e1873368b949144464f4f1c7d94ee78562499f",
+    "fitting_manifest.csv": "2f313f37f66572b13af1d2cd61852eb2f39b13e24f95304bc3a3c97dde0ce954",
+    "fold_class_metrics.csv": "e4b0dbbb103f872202c2c191241a03acbede3e702e5d02b39ae011ec006e56a7",
+    "fold_confusion.csv": "080c009f987303b18a46408e1323491348ec9ddca352cdaa91a2ac71d3346490",
+    "fold_metrics.csv": "f5155f7182e3a23cb527dcd3dd0dce0eb9b40aaf354250a75f07f00e20d26fd4",
+    "fold_metric_summary.csv": "63406569c459150f1c55847c559200b8abffb0a8fc073007085a66edf0f65c0c",
+    "pooled_class_metrics.csv": "c269ab1a3bc747724274804b04ef15e3279a12ba7ca6666cc6693583c4e7953e",
+    "pooled_confusion.csv": "8fe79a3d714fab13e420b40220de990d9191a6012bcc71c2037687632e8a5178",
+    "pooled_metrics.csv": "62f663fc61980ba68cc138bcec0b0c4dbae12ab4d27e371ea3c9a329202149a4",
+    "predictions.csv": "75e4dfff5a614980cc24216f3a01509aa5dc0fbd7defa26b489aab94fc3a3727",
+    "selected_parameters.csv": "fa9b43ae6e0d0a98b624c1524bfb15776d60efd51201c57739d542a93715c1a4",
+    "training_class_roles.csv": "59a81679e3d9896e9114e45c7b2a03676d7ba5d7bb926e1337641e0fbccf1837"
+  }
+}

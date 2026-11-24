@@ -1,0 +1,10 @@
+model,method,directory,predictions,flows_per_n,folds
+logistic_regression,Baseline,results/ml/logistic_regression,3404,851,4
+logistic_regression,Class weighting,results/ml/weighted_exploratory,3404,851,4
+logistic_regression,Corrected ROS,results/ml/imbalance_v2/logistic_regression/random_oversampling,3404,851,4
+random_forest,Baseline,results/ml/random_forest,3404,851,4
+random_forest,Class weighting,results/ml/weighted_exploratory,3404,851,4
+random_forest,Corrected ROS,results/ml/imbalance_v2/random_forest/random_oversampling,3404,851,4
+xgboost,Baseline,results/ml/xgboost,3404,851,4
+xgboost,Class weighting,results/ml/imbalance_v2/xgboost/class_weighted,3404,851,4
+xgboost,Corrected ROS,results/ml/imbalance_v2/xgboost/random_oversampling,3404,851,4

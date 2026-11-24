@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "model": "xgboost",
+  "method": "random_oversampling",
+  "output_sha256": {
+    "configuration.json": "37618826a69a74394177cb3e1da4657be7809a12fb699ad888cbb0bbeff712ed",
+    "fitting_manifest.csv": "44715cab774943a8d25ab5fa5c06a94516de2cee0d86704e18d406615e830bc3",
+    "fold_class_metrics.csv": "25bfc03768f52e9469e69a608f39f274739beab1fac4e706cf3a4b57d6b0ee92",
+    "fold_confusion.csv": "1625105c339437b9f120787a825ac6de47c9ca086393911e0587245df15b72d2",
+    "fold_metrics.csv": "374950ec49a83b5fddd490e405698e9447a97ed01fe17d753e15c0d8ae49b91c",
+    "fold_metric_summary.csv": "8a040c9b494e69c62567f8984dd448e495c19c1960bcfa1c5fe347234d94a7b0",
+    "pooled_class_metrics.csv": "bd88d5cb7aa383f60bdbbf943192766c3402ab83e1b34f2bd58ddc67c6d5bb1b",
+    "pooled_confusion.csv": "1a77786ddfc448d2d5ee22d12682e4394c8dfcd4c0274bc4341be1d52912393d",
+    "pooled_metrics.csv": "a271fcc212d60619ae1e1cd48f39712dd58a1c2c4c47824bea5b79f0f81f0d8f",
+    "predictions.csv": "f729b0f1ee02b23a085e546db456366ed5cb38b657f7453d1f9979a4420250ce",
+    "selected_parameters.csv": "fa9b43ae6e0d0a98b624c1524bfb15776d60efd51201c57739d542a93715c1a4",
+    "training_class_roles.csv": "59a81679e3d9896e9114e45c7b2a03676d7ba5d7bb926e1337641e0fbccf1837"
+  }
+}

@@ -1,0 +1,73 @@
+model,method,n_packets,role,mean_pooled_class_f1,support
+logistic_regression,Baseline,3,Minority,0.125,215
+logistic_regression,Baseline,3,Majority,0.5344872803566745,636
+logistic_regression,Baseline,5,Minority,0.17142857142857143,215
+logistic_regression,Baseline,5,Majority,0.5247832036485067,636
+logistic_regression,Baseline,10,Minority,0.21213216313887456,215
+logistic_regression,Baseline,10,Majority,0.6712843717368604,636
+logistic_regression,Baseline,20,Minority,0.4178350720978138,215
+logistic_regression,Baseline,20,Majority,0.7305758177353491,636
+logistic_regression,Class weighting,3,Minority,0.37297336845185836,215
+logistic_regression,Class weighting,3,Majority,0.41540018055598793,636
+logistic_regression,Class weighting,5,Minority,0.3902392675131726,215
+logistic_regression,Class weighting,5,Majority,0.5554099649490615,636
+logistic_regression,Class weighting,10,Minority,0.46935793925413305,215
+logistic_regression,Class weighting,10,Majority,0.5842951094984462,636
+logistic_regression,Class weighting,20,Minority,0.4993493819128172,215
+logistic_regression,Class weighting,20,Majority,0.7297279356196,636
+logistic_regression,Corrected ROS,3,Minority,0.37998447946513847,215
+logistic_regression,Corrected ROS,3,Majority,0.4120287420679358,636
+logistic_regression,Corrected ROS,5,Minority,0.3973839156647745,215
+logistic_regression,Corrected ROS,5,Majority,0.5439901876183808,636
+logistic_regression,Corrected ROS,10,Minority,0.4852941176470588,215
+logistic_regression,Corrected ROS,10,Majority,0.6036988727808165,636
+logistic_regression,Corrected ROS,20,Minority,0.5263305322128852,215
+logistic_regression,Corrected ROS,20,Majority,0.7422428298033574,636
+random_forest,Baseline,3,Minority,0.6690987124463519,215
+random_forest,Baseline,3,Majority,0.912515671029619,636
+random_forest,Baseline,5,Minority,0.7729855127355364,215
+random_forest,Baseline,5,Majority,0.928901919464932,636
+random_forest,Baseline,10,Minority,0.6870165745856354,215
+random_forest,Baseline,10,Majority,0.9164692917940254,636
+random_forest,Baseline,20,Minority,0.6378390648053569,215
+random_forest,Baseline,20,Majority,0.8503479817061046,636
+random_forest,Class weighting,3,Minority,0.7036105356614383,215
+random_forest,Class weighting,3,Majority,0.9205793709497576,636
+random_forest,Class weighting,5,Minority,0.7733749159175687,215
+random_forest,Class weighting,5,Majority,0.9295312231092048,636
+random_forest,Class weighting,10,Minority,0.6875127420998981,215
+random_forest,Class weighting,10,Majority,0.9163420007717298,636
+random_forest,Class weighting,20,Minority,0.6406876630114704,215
+random_forest,Class weighting,20,Majority,0.8346255418805122,636
+random_forest,Corrected ROS,3,Minority,0.7187755715502413,215
+random_forest,Corrected ROS,3,Majority,0.9199418132032687,636
+random_forest,Corrected ROS,5,Minority,0.7780813600485732,215
+random_forest,Corrected ROS,5,Majority,0.9298770840939515,636
+random_forest,Corrected ROS,10,Minority,0.6928123775949863,215
+random_forest,Corrected ROS,10,Majority,0.9102613065326634,636
+random_forest,Corrected ROS,20,Minority,0.6703633972093983,215
+random_forest,Corrected ROS,20,Majority,0.8561530381383322,636
+xgboost,Baseline,3,Minority,0.6512575144154091,215
+xgboost,Baseline,3,Majority,0.9113157146339481,636
+xgboost,Baseline,5,Minority,0.783961824953445,215
+xgboost,Baseline,5,Majority,0.926141021437062,636
+xgboost,Baseline,10,Minority,0.7303738431860913,215
+xgboost,Baseline,10,Majority,0.9229641069096142,636
+xgboost,Baseline,20,Minority,0.6186401480111008,215
+xgboost,Baseline,20,Majority,0.8516608717858055,636
+xgboost,Class weighting,3,Minority,0.6735549185384084,215
+xgboost,Class weighting,3,Majority,0.8981037045191831,636
+xgboost,Class weighting,5,Minority,0.7550628233555063,215
+xgboost,Class weighting,5,Majority,0.912655908386721,636
+xgboost,Class weighting,10,Minority,0.7099898736406464,215
+xgboost,Class weighting,10,Majority,0.9179702610283309,636
+xgboost,Class weighting,20,Minority,0.5946691176470589,215
+xgboost,Class weighting,20,Majority,0.8533837333837334,636
+xgboost,Corrected ROS,3,Minority,0.6614443084455324,215
+xgboost,Corrected ROS,3,Majority,0.8971428571428571,636
+xgboost,Corrected ROS,5,Minority,0.7782768395416617,215
+xgboost,Corrected ROS,5,Majority,0.9165359897513861,636
+xgboost,Corrected ROS,10,Minority,0.7212121212121212,215
+xgboost,Corrected ROS,10,Majority,0.9201159951159952,636
+xgboost,Corrected ROS,20,Minority,0.5974433252717464,215
+xgboost,Corrected ROS,20,Majority,0.8590413405983961,636
