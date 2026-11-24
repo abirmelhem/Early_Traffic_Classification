@@ -1,5 +1,13 @@
 # Capture-derived candidate labels
 
+## Completed study status
+
+The manifest covers 49 captures: 35 assigned candidate activities and 14 unresolved.
+The completed supervised experiments use 851 flows from the assigned captures,
+with all four packet-budget representations. Labels remain unverified. See the
+[current protocol](experiment_protocol.md) and [final results](../results/ml/paper_figures/README.md).
+This document describes labeling only; the labeling pipeline does not create splits.
+
 This pipeline retains the first-N packet study at N = 3, 5, 10, 20. It annotates
 existing records without modifying the original CSVs, extracting packets, matching
 ARFF rows, identifying background flows, or training models.
@@ -18,7 +26,7 @@ There is intentionally no column named `label` or `ground_truth`.
 `verification_status=capture_derived_unverified` and
 `confidence=capture_candidate_only` are categorical statements, not probabilities.
 No background flow is identified, removed, or declared to belong to the candidate.
-Any model later trained on these candidates must disclose capture-level weak
+Models trained on these candidates must disclose capture-level weak
 supervision and potential contamination. All metadata must be excluded from predictors.
 
 ## Explicit filename rules (version 1)
@@ -53,6 +61,10 @@ Zero documented groups means unknown, not zero actual recordings. No synthetic
 groups or train/test partitions are created.
 
 ## Reproduce
+
+These commands regenerate dedicated labeling outputs, including the generated
+manifest. Preserve the submitted annotations and use an isolated reproduction copy;
+they are not read-only inspection commands. No labeling was rerun for documentation review.
 
 From the repository root, with Python 3.11 (standard library only):
 

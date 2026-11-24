@@ -1,5 +1,13 @@
 # Recommended explicit train/validation/test protocol
 
+> **Historical split-design proposal.** Retained to explain the original feasibility
+> analysis, not as the current training protocol. The completed experiments use
+> `outer4_inner_holdout` with a fresh train+validation refit after training-only
+> candidate selection. The no-refit policy, planned classifiers, and pre-training
+> status below were superseded. See the [completed protocol](../../docs/experiment_protocol.md)
+> and [ML reproduction guide](../../docs/ml_framework.md). The saved generated copy
+> under `results/capture_splits/` is preserved with its original checksum.
+
 ## Status and intended claim
 
 The saved designs establish capture-disjointness only. They do not verify recording

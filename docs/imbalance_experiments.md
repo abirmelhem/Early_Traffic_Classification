@@ -1,7 +1,9 @@
-# Corrected imbalance experiments: implementation phase
+# Completed imbalance experiments and reproduction
 
-No research experiments were executed during this change. Historical baseline,
-weighted_exploratory and oversampling_exploratory outputs are preserved. The latter
+The final study includes LR/RF weighting and corrected oversampling, plus weighted
+and corrected-oversampling XGBoost. The four new experiments have completed under
+`results/ml/imbalance_v2/`. No experiments were rerun during the documentation review.
+Baseline, weighted_exploratory and oversampling_exploratory outputs are preserved. The latter
 used replacement draws for the entire minority class and could omit originals;
 it must not be reported as conventional retain-and-duplicate oversampling.
 
@@ -40,7 +42,22 @@ normalization matches the original completion hash. JSON requires an exact match
 No historical hash is rewritten. New metadata records accepted normalized matches
 and current exact byte hashes. Substantive artifact changes fail validation.
 
-## Outputs after future approved execution
+## Final sources and existing outputs
+
+The final comparison uses `results/ml/weighted_exploratory/` for LR/RF class weighting
+(filter shared CSVs by model), and these completed versioned runs:
+
+- `results/ml/imbalance_v2/logistic_regression/random_oversampling/`
+- `results/ml/imbalance_v2/random_forest/random_oversampling/`
+- `results/ml/imbalance_v2/xgboost/class_weighted/`
+- `results/ml/imbalance_v2/xgboost/random_oversampling/`
+
+The final tables and publication figures are in `results/ml/paper_figures/`.
+Historical `results/ml/final_imbalance_comparison/` uses the earlier oversampling
+artifacts and is not the final nine-combination comparison. LR/RF weighting has
+saved predictions and metrics but lacks the versioned runs' full fit/configuration
+metadata. A new versioned weighting rerun would be a separate experiment, not a
+replacement for the existing final source.
 
 Each experiment writes exclusively to
 `results/ml/imbalance_v2/<model>/<method>/` and refuses an existing directory before
@@ -74,9 +91,11 @@ estimators, fitting, scoring or writing files. It may be used for any combinatio
 Tests use synthetic data and mocked classifiers; export tests write temporary
 fixtures outside the project. No package installation is automatic.
 
-## Commands for later approval, one experiment at a time
+## Reproduction commands, one experiment at a time
 
-These commands train research models. Do not run during the implementation phase.
+These commands train research models. They were not run during documentation review.
+Use an isolated copy with verified completed baselines and the intended variant
+output directory absent; existing experiment directories are refused.
 
 ```powershell
 .\.venv\Scripts\python.exe -B -m src.ml.imbalance_experiments --model logistic_regression --method random_oversampling
@@ -85,7 +104,16 @@ These commands train research models. Do not run during the implementation phase
 .\.venv\Scripts\python.exe -B -m src.ml.imbalance_experiments --model xgboost --method random_oversampling
 ```
 
-For provenance-complete LR/RF weighting reruns in separate versioned directories:
+To reproduce the actual final LR/RF weighted source in an isolated copy where
+`results/ml/weighted_exploratory/` is absent, the historical runner executes both:
+
+```powershell
+.\.venv\Scripts\python.exe -B -m src.ml.weighted_experiments
+```
+
+This legacy runner has less execution metadata than the versioned runner. Do not
+claim its fit provenance is equivalent. For separate provenance-complete LR/RF
+weighting reruns in versioned directories (not the saved final source):
 
 ```powershell
 .\.venv\Scripts\python.exe -B -m src.ml.imbalance_experiments --model logistic_regression --method class_weighted
@@ -97,8 +125,9 @@ message directing users to this runner; its public `oversample` API uses the sha
 corrected function. The historical weighted runner remains unchanged.
 
 These are exploratory fixed-parameter interventions after baseline test inspection,
-not independently tuned comparisons or confirmatory evidence. No new performance
-claims follow until approved execution and saved-result validation.
+not independently tuned comparisons or confirmatory evidence. Final saved-result
+comparisons are available in the [paper output index](../results/ml/paper_figures/README.md);
+the [current protocol](experiment_protocol.md) defines their interpretation.
 
 ## Mandatory isolation checks
 

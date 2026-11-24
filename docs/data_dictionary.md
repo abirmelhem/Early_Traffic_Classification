@@ -44,23 +44,30 @@ One row represents one flow at one packet budget.
 | `flow_id` | Unique flow identifier | No |
 | `capture_id` | Original capture identifier | No |
 | `n_packets` | Number of observed packets: 3, 5, 10, or 20 | No |
-| `protocol` | TCP or UDP | Yes, after encoding |
+| `protocol` | TCP or UDP | No; recorded metadata only |
 | `mean_length` | Mean packet length over the first N packets, in bytes | Yes |
 | `std_length` | Population standard deviation of packet lengths, in bytes | Yes |
 | `min_length` | Minimum packet length among the first N packets, in bytes | Yes |
 | `max_length` | Maximum packet length among the first N packets, in bytes | Yes |
-| `total_bytes` | Sum of packet lengths over the first N packets, in bytes | Yes |
+| `total_bytes` | Sum of packet lengths over the first N packets, in bytes | No; redundant with N and mean length |
 | `forward_ratio` | Proportion of the first N packets traveling in the initial source direction | Yes |
-| `backward_ratio` | Proportion of the first N packets traveling in the reverse direction | Yes |
+| `backward_ratio` | Proportion of the first N packets traveling in the reverse direction | No; redundant with forward ratio |
 | `mean_interarrival` | Mean time between consecutive observed packets, in seconds | Yes |
 | `std_interarrival` | Population standard deviation of interarrival times, in seconds | Yes |
-| `time_to_n` | Elapsed time from the first to the Nth packet, in seconds | Report separately by default |
+| `time_to_n` | Nonnegative first-to-Nth timestamp difference, in seconds | No; acquisition-delay outcome |
 
 Packet length is calculated using `len(packet)` from Scapy.
 
 Standard deviations use Python's `statistics.pstdev()` function.
 
-Interarrival times are calculated between consecutive observed packets. Negative timestamp differences are clipped to zero.
+Interarrival times are calculated between consecutive observed packets in capture
+order, without timestamp sorting. Negative timestamp differences are clipped to
+zero. `time_to_n` also clips a negative first-to-Nth difference to zero; it is not
+the sum of individually clipped interarrivals for a nonmonotonic timestamp sequence.
+
+The seven actual predictors are `mean_length`, `std_length`, `min_length`,
+`max_length`, `forward_ratio`, `mean_interarrival`, and `std_interarrival`, enforced
+by `src/ml/features.py`. Other recorded columns are not additional model features.
 
 The direction of the first observed packet is defined as forward (+1); packets in the opposite direction are backward (−1).
 
@@ -90,11 +97,20 @@ The current directed-broadcast exclusion uses the configured subnet `131.202.240
 | `service_label` | Application/service category, once verified |
 | `session_id` | Independent recording/session identifier, once established |
 
-Application labels and session identifiers have not yet been verified.
+The inventory's `service_label` and `session_id` fields are not verified labels or
+independent session assignments. The separate capture-derived labeling pipeline is
+complete, but application labels and recording independence remain unverified.
 
 Capture filenames may suggest candidate application classes, but they do not prove that every extracted flow belongs to that application.
 
-Verified labels must be joined to feature rows through the appropriate capture/flow mapping before supervised learning.
+The completed experiments explicitly use weak labels joined by `capture_id` in
+`data/processed/capture_labeled/all_flows_capture_labeled.csv` and
+`data/processed/capture_labeled/all_features_capture_labeled.csv`. Added metadata
+includes `application`, `candidate_class`, `label_source`, `confidence`,
+`verification_status`, and `recording_group`. The label manifest is
+`results/labeling/capture_manifest.csv`. All 49 recording groups remain unknown;
+`verification_status` is `capture_derived_unverified`. These fields are excluded
+from predictors. See [capture labeling](capture_labeling.md).
 
 ## 6. Experimental Use
 
@@ -103,12 +119,18 @@ The research compares classification performance at N = 3, 5, 10, and 20 packets
 - Train separate models for each packet budget.
 - Use the same eligible evaluation flows across all four budgets for the primary controlled comparison.
 - Report flow coverage separately for each packet budget.
-- Use capture/session-grouped splitting where defensible to reduce data leakage.
+- Use the saved four-fold capture-disjoint training/validation/test assignments;
+  independent recording-session groups have not been established.
 - Preserve natural class imbalance and identify majority/minority classes from training data.
 - Evaluate per-class precision, recall, F1-score, macro-F1, and confusion matrices.
 - Report observation delay using `time_to_n`.
 
 **Important:** `time_to_n` is primarily a networking latency measurement and should be excluded from the default classifier predictors to avoid mixing the observation-delay outcome with the predictive feature set.
+
+The final classifier experiments exclude `time_to_n`. Supervised acquisition-delay
+tables convert seconds to milliseconds for the fixed 851-flow cohort. Eligibility
+coverage uses all 13,314 extracted flows. Acquisition delay is not inference latency.
+See the [completed protocol](experiment_protocol.md) for selection and refitting.
 
 ## 7. Current Dataset Status
 
@@ -122,6 +144,10 @@ The initial two NonVPN folders contain 49 processed captures.
 - Extracted feature rows: 8,286
 - Dataset validation issues detected: 0
 
-These counts will be updated after processing any additional captures.
+Thirty-five captures have assigned candidates and 14 are unresolved. Excluding
+256 unresolved N=20 flows leaves 851 supervised flows and 3,404 repeated flow-budget
+records. Their class supports are CHAT=92, MAIL=247, VOIP=389, FT=123. The saved
+`results/ml_readiness/common_cohort_manifest.csv` fixes this population. These counts
+describe the completed study; future expansions are separate populations.
 
 Passing structural validation and unit tests does not establish application-label correctness, capture independence, or model generalization.

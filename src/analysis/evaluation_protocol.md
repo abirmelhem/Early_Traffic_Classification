@@ -1,5 +1,13 @@
 # Proposed evaluation protocol — approval required before training
 
+> **Historical readiness proposal.** This records the design considered before
+> final split allocation and model implementation. It is not the completed study's
+> methods specification. Proposed models, repeated seeds, uncertainty analyses,
+> and future sensitivities below must not be reported as executed experiments.
+> See the [completed protocol](../../docs/experiment_protocol.md) and
+> [final results index](../../results/ml/paper_figures/README.md). The generated copy
+> under `results/ml_readiness/` remains an unchanged historical artifact.
+
 ## Scope and claim
 
 Study N={3,5,10,20} packets using fixed flow identities. Current targets are
